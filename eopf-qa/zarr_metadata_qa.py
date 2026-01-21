@@ -2,6 +2,7 @@
 
 import json
 import os
+import re
 import requests
 import urllib
 from stac_validator.utilities import fetch_and_parse_file
@@ -14,7 +15,7 @@ def __init__():
     # see warning in https://docs.python.org/3/library/urllib.request.html#module-urllib.request for mac
     os.environ["no_proxy"] = "*"
 
-def _check_file_exists(url):
+def check_file_exists(url):
     """
     Checks that a given URL is reachable.
     :param url: a URL
@@ -26,36 +27,72 @@ def _check_file_exists(url):
     try:
         urllib.request.urlopen(request)
         return True
-    except urllib.request.HTTPError:
+    except urllib.request.HTTPError as err:
+        #print(err)
         return False
 
 def print_json(json_data):
     print(json.dumps(json_data, indent=4))
 
-def _zattrs_validate(zattrs):
-    return False
+#def _zattrs_validate(zattrs):
+#    return False
+#
+#def _zarray_validate(zarray):
+#    return False
+#
+#def _zgroup_validate(zd):
+#    return False
 
-def _zarray_validate(zarray):
-    return False
+# check that all EOPF assets exist
+def eopf_check_assets(assets, baseurl = ""):
+    assets_messages = {}
+    eopf_assets = {}
+    asset_missing = False
+    for key in assets:
+        asset = assets[key]
+        href = asset["href"]
+        if not href.startswith("http"):
+            if href.startswith("/"):
+                href = baseurl + href
+            else:
+                href = baseurl + "/" + href
+        if not href.endswith("/.zattrs"):
+            if not href.endswith("/"):
+                href += "/"
+            href += ".zattrs"
 
-def _zgroup_validate(zd):
-    return False
+        found = check_file_exists(href)
+        eopf_assets[ asset["href"] ] = found
+        asset_missing |= not found
+    
+    assets_messages["eopf_assets"] = eopf_assets
+    assets_messages["eopf_assets_all_accessible"] = not asset_missing
+
+    return assets_messages
 
 def zarr_metadata_validate(zurl, check_files=True, check_stack=True):
     result = []
-    jmsg = {}
+    message = {}
     try:
-        if not zurl.endswith('/.zmetadata'):
-            zurl += '/.zmetadata'
-        zmd = fetch_and_parse_file(zurl)
-        #print(json.dumps(zmd, indent=4))
+        baseurl = re.sub("/?.zmetadata$", "", zurl)
+        zmd = fetch_and_parse_file(baseurl + '/.zmetadata')
+        #print_json(zmd)
         ## TODO: check other metadata content
         try:
             stac_item = zmd['metadata']['.zattrs']['stac_discovery']
-            print(json.dumps(stac_item, indent=4))
+            #print_json(stac_item)
             stac = stac_validator.StacValidate(schema_map = schema_map_local)
             stac.validate_dict(stac_item)
             #print(stac.message)
+            
+            # TODO: check all assets point to real files
+            try:
+                assets = stac.stac_content["assets"]
+                asset_messages = eopf_check_assets(assets, baseurl)
+                stac.message[0].update(asset_messages)
+            except Exception as ex: 
+                print(ex) 
+            
             message = stac.message[0]
             del message["schema"]
 
@@ -78,10 +115,9 @@ def _print_result(url, result):
 
 if __name__ == "__main__":
     # test code
-    #url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202508-s02msil1c/04/products/cpm_v256/S2B_MSIL1C_20250804T222529_N0511_R015_T05WPU_20250804T224050.zarr"
-    #url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202508-s01siwgrh/06/products/cpm_v256/S1A_IW_GRDH_1SDV_20250806T104642_20250806T104711_060414_078274_ED3D.zarr"
-    url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s01sewgrm-global/20/products/cpm_v262/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37.zarr"
+    url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s02msil1c-eu/20/products/cpm_v262/S2B_MSIL1C_20260120T125339_N0511_R138_T27VXL_20260120T130450.zarr"
+    #url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s01sewgrm-global/20/products/cpm_v262/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37.zarr"
     result, jmsg = zarr_metadata_validate(url)
     #print(url, result)
-    print(json.dumps(jmsg, indent=4))
+    print_json(jmsg)
 
