@@ -1,0 +1,5 @@
+requests==2.32.4
+setuptools==80.9.0
+stac_validator==3.10.2
+xarray==2025.9.0
+xarray-eopf==0.2.5
