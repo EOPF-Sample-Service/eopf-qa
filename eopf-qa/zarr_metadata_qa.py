@@ -1,5 +1,5 @@
 # check that zarr metadata is complete and .zgroup, .zarray and .zattrs files exist
-
+import argparse
 import json
 import os
 import re
@@ -114,10 +114,27 @@ def _print_result(url, result):
         print(*result, sep='\n')
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='EOPF ZARR Validator')
+    parser.add_argument("--zarr", type=str, help="zarr with .zmetadata (either http or file URL)", required=True)
+    parser.add_argument("--schema-map", type=str, help="schema map in the format 'URL,file'", required=False)
+    args = parser.parse_args()
+
     # test code
-    url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s02msil1c-eu/20/products/cpm_v262/S2B_MSIL1C_20260120T125339_N0511_R138_T27VXL_20260120T130450.zarr"
+    #url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s02msil1c-eu/20/products/cpm_v262/S2B_MSIL1C_20260120T125339_N0511_R138_T27VXL_20260120T130450.zarr"
     #url = "https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s01sewgrm-global/20/products/cpm_v262/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37.zarr"
-    result, jmsg = zarr_metadata_validate(url)
+
+    if args.schema_map:
+        s = args.schema_map.split(',')
+        # slice with keys
+        keys=s[::2]
+        # slice with values
+        values=s[1::2]
+        # merge
+        schema_map_local = dict(zip(keys,values))
+
+
+    # run the validator
+    result, jmsg = zarr_metadata_validate(args.zarr)
     #print(url, result)
     print_json(jmsg)
 

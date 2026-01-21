@@ -1,4 +1,5 @@
 # check that a stac item validates
+import argparse
 import json
 from stac_validator import stac_validator
 from zarr_metadata_qa import zarr_metadata_validate, check_file_exists
@@ -101,13 +102,26 @@ def stac_validate_local(image_url):
     return message
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='EOPF STAC Validator')
+    parser.add_argument("--stac", type=str, help="Path to stac json (either http or file URL)", required=True)
+    parser.add_argument("--expectedStacLinks", type=str, help="links to check for existance, comma separated", required=False)
+    parser.add_argument("--expectedStacAssets", type=str, help="assets to check, comma separated", required=False)
+    args = parser.parse_args()
+
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_IW_GRDH_1SDV_20250806T104642_20250806T104711_060414_078274_ED3D")
-    #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37")
+    jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-slc/items/S1A_IW_SLC__1SDV_20240106T170607_20240106T170635_051989_064848_04A6")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l1c/items/S2B_MSIL1C_20260113T112329_N0511_R037_T32VKR_20260113T131429")
     ##jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l2a/items/S2B_MSIL2A_20250804T185919_N0511_R013_T23XNM_20250804T211910")
-    jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr/items/S3A_OL_1_EFR____20260112T113833_20260112T114133_20260112T133232_0179_135_023_2340_PS1_O_NR_004")
+    #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr/items/S3A_OL_1_EFR____20260112T113833_20260112T114133_20260112T133232_0179_135_023_2340_PS1_O_NR_004")
     
+    if args.expectedStacLinks:
+        expectedStacLinks = args.expectedStacLinks.split(",")
+    if args.expectedStacAssets:
+        expectedStacAssets = args.expectedStacAssets.split(",")
+    
+    # run the validator
+    jmsg = stac_validate_local(args.stac)
     #print(jmsg)
     print(json.dumps(jmsg, indent=4))
 
