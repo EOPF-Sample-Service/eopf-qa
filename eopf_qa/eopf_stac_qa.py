@@ -4,10 +4,7 @@ import json
 from stac_validator import stac_validator
 from zarr_metadata_qa import zarr_metadata_validate, check_file_exists
 
-expectedStacLinks = ["collection","parent","root","self","cite-as","license"]
-expectedStacAssets = ["product","zipped_product","product_metadata","test"]
-
-def stac_validate_links(links):
+def stac_validate_links(links, expectedStacLinks):
     link_messages = {}
     found_links = []
     for link in links:
@@ -22,7 +19,7 @@ def stac_validate_links(links):
     
     return link_messages
 
-def stac_validate_assets(assets):
+def stac_validate_assets(assets, expectedStacAssets, schema_map):
     assets_messages = {}
     assets_messages["valid_eopf"] = False
     try:
@@ -43,7 +40,7 @@ def stac_validate_assets(assets):
                 pass # no further validation for ZIPer download endpoint
             elif asset["type"] == "application/json" and asset["href"].endswith(".zmetadata"):
                 # TODO: make deep-check optional
-                messages,jmsg = zarr_metadata_validate(asset["href"])
+                messages,jmsg = zarr_metadata_validate(asset["href"], schema_map)
                 if messages:
                     #print(messages)
                     zarrmetadata["valid_metadata"] = False
@@ -73,14 +70,18 @@ def stac_validate_assets(assets):
     return assets_messages
 
 
-def stac_validate_local(image_url):
-    stac = stac_validator.StacValidate(image_url)#, pydantic=True)#, extensions=True, verbose=True)
+def stac_validate_local( image_url, 
+                         schema_map, 
+                         expectedStacLinks = ["collection","parent","root","self","cite-as","license"], 
+                         expectedStacAssets= ["product","zipped_product","product_metadata","test"]
+                       ):
+    stac = stac_validator.StacValidate(image_url, schema_map = schema_map)#, pydantic=True)#, extensions=True, verbose=True)
     stac.run()
 
     # check links
     try:
         links = stac.stac_content["links"]
-        link_messages = stac_validate_links(links)
+        link_messages = stac_validate_links(links, expectedStacLinks)
         stac.message[0]["stac_links"] = link_messages
     except Exception as ex: 
         print(ex) 
@@ -89,7 +90,7 @@ def stac_validate_local(image_url):
     # check assets
     try:
         assets = stac.stac_content["assets"]
-        asset_messages = stac_validate_assets(assets)
+        asset_messages = stac_validate_assets(assets, expectedStacAssets, schema_map)
         stac.message[0].update(asset_messages)
     except Exception as ex: 
         print(ex) 
@@ -106,10 +107,11 @@ if __name__ == "__main__":
     parser.add_argument("--stac", type=str, help="Path to stac json (either http or file URL)", required=True)
     parser.add_argument("--expectedStacLinks", type=str, help="links to check for existance, comma separated", required=False)
     parser.add_argument("--expectedStacAssets", type=str, help="assets to check, comma separated", required=False)
+    parser.add_argument("--schema-map", type=str, help="schema map in the format 'URL,file'", required=False)
     args = parser.parse_args()
 
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_IW_GRDH_1SDV_20250806T104642_20250806T104711_060414_078274_ED3D")
-    jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37")
+    #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-slc/items/S1A_IW_SLC__1SDV_20240106T170607_20240106T170635_051989_064848_04A6")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l1c/items/S2B_MSIL1C_20260113T112329_N0511_R037_T32VKR_20260113T131429")
     ##jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l2a/items/S2B_MSIL2A_20250804T185919_N0511_R013_T23XNM_20250804T211910")
@@ -117,11 +119,23 @@ if __name__ == "__main__":
     
     if args.expectedStacLinks:
         expectedStacLinks = args.expectedStacLinks.split(",")
+    else:
+        expectedStacLinks = ["collection","parent","root","self","cite-as","license"]
+
     if args.expectedStacAssets:
         expectedStacAssets = args.expectedStacAssets.split(",")
-    
+    else:
+        expectedStacAssets = ["product","zipped_product","product_metadata"]
+
+    if args.schema_map:
+        s = args.schema_map.split(',')
+        # convert into dict by zipping "slice with keys" and "slice with values" together
+        schema_map_local = dict( zip(s[::2], s[1::2]) )
+    else:
+        schema_map_local = {"https://stac-extensions.github.io/eopf/v1.2.0/schema.json": "local_schemas/eopf-stac-extension/schema.json"}
+
     # run the validator
-    jmsg = stac_validate_local(args.stac)
+    jmsg = stac_validate_local(args.stac, schema_map = schema_map_local, expectedStacLinks = expectedStacLinks, expectedStacAssets = expectedStacAssets)
     #print(jmsg)
     print(json.dumps(jmsg, indent=4))
 

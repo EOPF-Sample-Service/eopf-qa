@@ -9,8 +9,6 @@ from stac_validator.utilities import fetch_and_parse_file
 from stac_validator import stac_validator
 #from stac_validator.utilites import fetch_and_parse_file
 
-schema_map_local = {"https://stac-extensions.github.io/eopf/v1.2.0/schema.json": "../local_schemas/eopf-stac-extension/schema.json"}
-
 def __init__():
     # see warning in https://docs.python.org/3/library/urllib.request.html#module-urllib.request for mac
     os.environ["no_proxy"] = "*"
@@ -70,7 +68,7 @@ def eopf_check_assets(assets, baseurl = ""):
 
     return assets_messages
 
-def zarr_metadata_validate(zurl, check_files=True, check_stack=True):
+def zarr_metadata_validate(zurl, schema_map, check_files=True, check_stack=True):
     result = []
     message = {}
     try:
@@ -81,7 +79,7 @@ def zarr_metadata_validate(zurl, check_files=True, check_stack=True):
         try:
             stac_item = zmd['metadata']['.zattrs']['stac_discovery']
             #print_json(stac_item)
-            stac = stac_validator.StacValidate(schema_map = schema_map_local)
+            stac = stac_validator.StacValidate(schema_map = schema_map)
             stac.validate_dict(stac_item)
             #print(stac.message)
             
@@ -125,16 +123,13 @@ if __name__ == "__main__":
 
     if args.schema_map:
         s = args.schema_map.split(',')
-        # slice with keys
-        keys=s[::2]
-        # slice with values
-        values=s[1::2]
-        # merge
-        schema_map_local = dict(zip(keys,values))
-
+        # convert into dict by zipping "slice with keys" and "slice with values" together
+        schema_map_local = dict( zip(s[::2], s[1::2]) )
+    else:
+        schema_map_local = {"https://stac-extensions.github.io/eopf/v1.2.0/schema.json": "local_schemas/eopf-stac-extension/schema.json"}
 
     # run the validator
-    result, jmsg = zarr_metadata_validate(args.zarr)
+    result, jmsg = zarr_metadata_validate(args.zarr, schema_map=schema_map_local)
     #print(url, result)
     print_json(jmsg)
 
