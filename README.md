@@ -1,4 +1,4 @@
-[<img src="./static/ESA_EOPF_SZS_logo_2025.png">](https://zarr.eopf.copernicus.eu/)
+[<img src="./static/EOPF-on-bright-baseline.png" width="480">](https://zarr.eopf.copernicus.eu/)
 
 # eopf-qa
 EOPF Zarr Product quality checks (draft)
@@ -25,3 +25,57 @@ Implemented as a library to be either called during STAC-Item generation or with
 * Agree with EODC on how to report EOPF product errors like missing chunks (within ingestion workflow) to abort publishing and request operator clearance
 * library updates after EOPF products evolve.
 
+## Usage examples
+
+### Usage help
+```bash
+python3 ./eopf_qa/zarr_metadata_qa.py --help
+```
+Shows:
+```
+usage: zarr_metadata_qa.py [-h] --zarr ZARR [--schema-map SCHEMA_MAP]
+    
+EOPF ZARR Validator
+
+options:
+  -h, --help            show this help message and exit
+  --zarr ZARR           zarr with .zmetadata (either http or file URL)
+  --schema-map SCHEMA_MAP
+                        schema map in the format 'URL,file'
+```
+
+Simlarly for the `eopf_stac_qa.py` tool:
+```bash
+python3 ./eopf_qa/eopf_stac_qa.py --help
+usage: eopf_stac_qa.py [-h] --stac STAC [--expectedStacLinks EXPECTEDSTACLINKS] [--expectedStacAssets EXPECTEDSTACASSETS] [--schema-map SCHEMA_MAP]
+
+EOPF STAC Validator
+
+options:
+  -h, --help            show this help message and exit
+  --stac STAC           Path to stac json (either http or file URL)
+  --expectedStacLinks EXPECTEDSTACLINKS
+                        links to check for existance, comma separated
+  --expectedStacAssets EXPECTEDSTACASSETS
+                        assets to check, comma separated
+  --schema-map SCHEMA_MAP
+                        schema map in the format 'URL,file'
+```
+
+
+### Validate the a CPM generated Zarr file:
+```bash
+python3 eopf_qa/zarr_metadata_qa.py --zarr https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202601-s01sewgrm-global/20/products/cpm_v262/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37.zarr --schema-map 'https://stac-extensions.github.io/eopf/v1.2.0/schema.json,local_schemas/eopf-stac-extension/sche ma.json'
+```
+Reports an error `"'view:off_nadir' is a required property. Error is in properties" for the CPM .zmetadata stac_discovery section.`
+
+### Validate the newest STAC Item directly from the Stac-Catalog:
+```bash
+python3 eopf_qa/eopf_stac_qa.py --stac <(curl -s 'https://stac.core.eopf.eodc.eu/search?collections=sentinel-2-l1c&sortby=properties.datetime+desc&limit=1' | jq '.fe atures[0]')
+```
+reports `missing TCI_10m asset file, and an error in the .zmetadata: "Error in STAC: '10' is not of type 'number'. Error is in properties -> gsd"`
+
+### Validate a local STAC item:
+```bash
+python3 eopf_qa/eopf_stac_qa.py --stac 'tests/sample-data/stac-s2l1c.json'
+```

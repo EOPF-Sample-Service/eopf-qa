@@ -73,7 +73,7 @@ def stac_validate_assets(assets, expectedStacAssets, schema_map):
 def stac_validate_local( image_url, 
                          schema_map, 
                          expectedStacLinks = ["collection","parent","root","self","cite-as","license"], 
-                         expectedStacAssets= ["product","zipped_product","product_metadata","test"]
+                         expectedStacAssets= ["product","zipped_product","product_metadata"]
                        ):
     stac = stac_validator.StacValidate(image_url, schema_map = schema_map)#, pydantic=True)#, extensions=True, verbose=True)
     stac.run()
