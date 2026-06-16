@@ -4,6 +4,9 @@ import json
 from stac_validator import stac_validator
 from zarr_metadata_qa import zarr_metadata_validate, check_file_exists
 
+EXPECTED_STAC_ASSETS = ["product","zipped_product","product_metadata"] 
+EXPECTED_STAC_LINKS = ["collection","parent","root","self","cite-as","license"]
+
 def stac_validate_links(links, expectedStacLinks):
     link_messages = {}
     found_links = []
@@ -72,8 +75,8 @@ def stac_validate_assets(assets, expectedStacAssets, schema_map):
 
 def stac_validate_local( image_url, 
                          schema_map, 
-                         expectedStacLinks = ["collection","parent","root","self","cite-as","license"], 
-                         expectedStacAssets= ["product","zipped_product","product_metadata"]
+                         expectedStacLinks = EXPECTED_STAC_LINKS, 
+                         expectedStacAssets= EXPECTED_STAC_ASSETS
                        ):
     stac = stac_validator.StacValidate(image_url, schema_map = schema_map)#, pydantic=True)#, extensions=True, verbose=True)
     stac.run()
@@ -114,19 +117,12 @@ if __name__ == "__main__":
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-grd/items/S1A_EW_GRDM_1SDH_20260120T122108_20260120T122208_062850_07E274_5E37")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-1-l1-slc/items/S1A_IW_SLC__1SDV_20240106T170607_20240106T170635_051989_064848_04A6")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l1c/items/S2B_MSIL1C_20260113T112329_N0511_R037_T32VKR_20260113T131429")
-    ##jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l2a/items/S2B_MSIL2A_20250804T185919_N0511_R013_T23XNM_20250804T211910")
+    #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-2-l2a/items/S2B_MSIL2A_20250804T185919_N0511_R013_T23XNM_20250804T211910")
     #jmsg = stac_validate_local("https://stac.core.eopf.eodc.eu/collections/sentinel-3-olci-l1-efr/items/S3A_OL_1_EFR____20260112T113833_20260112T114133_20260112T133232_0179_135_023_2340_PS1_O_NR_004")
-    
-    if args.expectedStacLinks:
-        expectedStacLinks = args.expectedStacLinks.split(",")
-    else:
-        expectedStacLinks = ["collection","parent","root","self","cite-as","license"]
 
-    if args.expectedStacAssets:
-        expectedStacAssets = args.expectedStacAssets.split(",")
-    else:
-        expectedStacAssets = ["product","zipped_product","product_metadata"]
-
+    # pre-process cmdline arguments and defaults    
+    expectedStacLinks = args.expectedStacLinks.split(",") if args.expectedStacLinks else EXPECTED_STAC_LINKS
+    expectedStacAssets = args.expectedStacAssets.split(",") if args.expectedStacAssets else EXPECTED_STAC_ASSETS
     if args.schema_map:
         s = args.schema_map.split(',')
         # convert into dict by zipping "slice with keys" and "slice with values" together
