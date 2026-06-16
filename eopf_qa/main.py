@@ -13,9 +13,10 @@ def print_gen_structure(node, indent=""):
     for child_name, child_node in node.children.items(): #loops inside the selected nodes to extract naming
         print_gen_structure(child_node, indent + "  ") # prints the name of the selected nodes
 
-stac = 'https://stac.core.eopf.eodc.eu/collections/sentinel-2-l2a/items/S2A_MSIL2A_20250729T084731_N0511_R107_T33KVQ_20250729T122727'
+##stac = 'https://stac.core.eopf.eodc.eu/collections/sentinel-2-l2a/items/S2A_MSIL2A_20250729T084731_N0511_R107_T33KVQ_20250729T122727'
 
 url = 'https://objects.eodc.eu:443/e05ab01a9d56408d82ac32d69a5aae2a:202507-s02msil2a/29/products/cpm_v256/S2A_MSIL2A_20250729T084731_N0511_R107_T33KVQ_20250729T122727.zarr'
+
 s2l2a_zarr_sample= xr.open_datatree(url,
     engine="eopf-zarr", # storage format
     op_mode="native", # no analysis mode
