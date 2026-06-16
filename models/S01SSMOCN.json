@@ -1,0 +1,3790 @@
+{
+    "container_type_regex": "S01SSMOCN",
+    "sub_products": {},
+    "sub_containers": {
+        "osw": {
+            "container_type_regex": "S01SEWOCN",
+            "sub_products": {
+                "S01SS4OCN_20240923T062924_0019_A319_E201_06D0EE_VV": {
+                    "product_type_regex": "S01SSMOCN",
+                    "variables": {
+                        "/measurements/hs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/hs_normalised_variance": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/partitions": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "angular_binsize",
+                                "wavenumber_binsize"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/total_hs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/total_hs_standard_deviation": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/wave_age": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/wave_direction": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/wave_length": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/wind_sea_hs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/ambiguity_factor": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/auxiliary_wind_direction": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/auxiliary_wind_speed": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/azimuth_cutoff": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/azimuth_size": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/azimuth_size_slc": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/cartesian_spectra_imaginary": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "lag",
+                                "ky",
+                                "kx"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/cartesian_spectra_real": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "lag",
+                                "ky",
+                                "kx"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/clutter_noise_cross_covariance_spectra": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "lag"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/clutter_noise_cross_spectra": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "lag"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/depth": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/ground_range_size": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/heading": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/incidence_angle": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/intensity": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/kurtosis": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/land_coverage": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/land_flag": {
+                            "dtype": "bool",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/look_separation_time": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/non_linear_spectral_width": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/normalised_variance": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nrcs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nrcs_denoised": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/polar_spectrum": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "angular_binsize",
+                                "wavenumber_binsize"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/polar_spectrum_normalised_variance": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "angular_binsize",
+                                "wavenumber_binsize"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/range_cutoff": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/range_size_slc": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/skewness": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/spectrum_resolution": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "angular_binsize"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/wind_speed": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/wind_direction": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/i_confidence": {
+                            "dtype": "bool",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/partition_quality_flag": {
+                            "dtype": "float64",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "partition"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/quality_cross_spectra_imaginary_part": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "angular_binsize",
+                                "wavenumber_binsize"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/quality_cross_spectra_real_part": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "angular_binsize",
+                                "wavenumber_binsize"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/quality_flag": {
+                            "dtype": "float64",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/snr": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        }
+                    },
+                    "attrs": {
+                        "stac_discovery/type": {},
+                        "stac_discovery/stac_version": {},
+                        "stac_discovery/stac_extensions": {},
+                        "stac_discovery/id": {},
+                        "stac_discovery/geometry/type": {},
+                        "stac_discovery/geometry/coordinates": {},
+                        "stac_discovery/bbox": {},
+                        "stac_discovery/properties/datetime": {},
+                        "stac_discovery/properties/start_datetime": {},
+                        "stac_discovery/properties/end_datetime": {},
+                        "stac_discovery/properties/created": {},
+                        "stac_discovery/properties/platform": {},
+                        "stac_discovery/properties/instruments": {},
+                        "stac_discovery/properties/constellation": {},
+                        "stac_discovery/properties/product:type": {},
+                        "stac_discovery/properties/product:timeliness_category": {},
+                        "stac_discovery/properties/product:timeliness": {},
+                        "stac_discovery/properties/processing:lineage": {},
+                        "stac_discovery/properties/eopf:datatake_id": {},
+                        "stac_discovery/properties/sar:instrument_mode": {},
+                        "stac_discovery/properties/sat:absolute_orbit": {},
+                        "stac_discovery/properties/sat:orbit_cycle": {},
+                        "stac_discovery/properties/sat:relative_orbit": {},
+                        "stac_discovery/properties/sat:orbit_state": {},
+                        "stac_discovery/properties/processing:version": {},
+                        "stac_discovery/links": {},
+                        "stac_discovery/assets/osw_hs/href": {},
+                        "stac_discovery/assets/osw_hs/title": {},
+                        "stac_discovery/assets/osw_hs_nv/href": {},
+                        "stac_discovery/assets/osw_hs_nv/title": {},
+                        "stac_discovery/assets/osw_partitions/href": {},
+                        "stac_discovery/assets/osw_partitions/title": {},
+                        "stac_discovery/assets/osw_total_hs/href": {},
+                        "stac_discovery/assets/osw_total_hs/title": {},
+                        "stac_discovery/assets/osw_total_hs_standard_deviation/href": {},
+                        "stac_discovery/assets/osw_total_hs_standard_deviation/title": {},
+                        "stac_discovery/assets/osw_wave_age/href": {},
+                        "stac_discovery/assets/osw_wave_age/title": {},
+                        "stac_discovery/assets/osw_wave_direction/href": {},
+                        "stac_discovery/assets/osw_wave_direction/title": {},
+                        "stac_discovery/assets/osw_wave_length/href": {},
+                        "stac_discovery/assets/osw_wave_length/title": {},
+                        "stac_discovery/assets/osw_wind_sea_hs/href": {},
+                        "stac_discovery/assets/osw_wind_sea_hs/title": {},
+                        "stac_discovery/assets/osw_ambiguity_factor/href": {},
+                        "stac_discovery/assets/osw_ambiguity_factor/title": {},
+                        "stac_discovery/assets/osw_auxiliary_wind_direction/href": {},
+                        "stac_discovery/assets/osw_auxiliary_wind_direction/title": {},
+                        "stac_discovery/assets/osw_auxiliary_wind_speed/href": {},
+                        "stac_discovery/assets/osw_auxiliary_wind_speed/title": {},
+                        "stac_discovery/assets/osw_azimuth_cutoff/href": {},
+                        "stac_discovery/assets/osw_azimuth_cutoff/title": {},
+                        "stac_discovery/assets/osw_azimuth_size/href": {},
+                        "stac_discovery/assets/osw_azimuth_size/title": {},
+                        "stac_discovery/assets/osw_azimuth_size_slc/href": {},
+                        "stac_discovery/assets/osw_azimuth_size_slc/title": {},
+                        "stac_discovery/assets/cartesian_spectra_imaginary/href": {},
+                        "stac_discovery/assets/cartesian_spectra_imaginary/title": {},
+                        "stac_discovery/assets/cartesian_spectra_real/href": {},
+                        "stac_discovery/assets/cartesian_spectra_real/title": {},
+                        "stac_discovery/assets/osw_clutter_noise_cross_covariance_spectra/href": {},
+                        "stac_discovery/assets/osw_clutter_noise_cross_covariance_spectra/title": {},
+                        "stac_discovery/assets/osw_clutter_noise_cross_spectra/href": {},
+                        "stac_discovery/assets/osw_clutter_noise_cross_spectra/title": {},
+                        "stac_discovery/assets/osw_depth/href": {},
+                        "stac_discovery/assets/osw_depth/title": {},
+                        "stac_discovery/assets/osw_ground_range_size/href": {},
+                        "stac_discovery/assets/osw_ground_range_size/title": {},
+                        "stac_discovery/assets/osw_heading/href": {},
+                        "stac_discovery/assets/osw_heading/title": {},
+                        "stac_discovery/assets/osw_incidence_angle/href": {},
+                        "stac_discovery/assets/osw_incidence_angle/title": {},
+                        "stac_discovery/assets/osw_intensity/href": {},
+                        "stac_discovery/assets/osw_intensity/title": {},
+                        "stac_discovery/assets/osw_kurtosis/href": {},
+                        "stac_discovery/assets/osw_kurtosis/title": {},
+                        "stac_discovery/assets/osw_land_coverage/href": {},
+                        "stac_discovery/assets/osw_land_coverage/title": {},
+                        "stac_discovery/assets/osw_land_flag/href": {},
+                        "stac_discovery/assets/osw_land_flag/title": {},
+                        "stac_discovery/assets/osw_look_separation_time/href": {},
+                        "stac_discovery/assets/osw_look_separation_time/title": {},
+                        "stac_discovery/assets/osw_non_linear_spectral_width/href": {},
+                        "stac_discovery/assets/osw_non_linear_spectral_width/title": {},
+                        "stac_discovery/assets/osw_slc_nv/href": {},
+                        "stac_discovery/assets/osw_slc_nv/title": {},
+                        "stac_discovery/assets/osw_nrcs/href": {},
+                        "stac_discovery/assets/osw_nrcs/title": {},
+                        "stac_discovery/assets/osw_nrcs_denoised/href": {},
+                        "stac_discovery/assets/osw_nrcs_denoised/title": {},
+                        "stac_discovery/assets/osw_polar_spectrum/href": {},
+                        "stac_discovery/assets/osw_polar_spectrum/title": {},
+                        "stac_discovery/assets/osw_polar_spectrum_nv/href": {},
+                        "stac_discovery/assets/osw_polar_spectrum_nv/title": {},
+                        "stac_discovery/assets/osw_range_cutoff/href": {},
+                        "stac_discovery/assets/osw_range_cutoff/title": {},
+                        "stac_discovery/assets/osw_range_size_slc/href": {},
+                        "stac_discovery/assets/osw_range_size_slc/title": {},
+                        "stac_discovery/assets/osw_skewness/href": {},
+                        "stac_discovery/assets/osw_skewness/title": {},
+                        "stac_discovery/assets/osw_spec_res/href": {},
+                        "stac_discovery/assets/osw_spec_res/title": {},
+                        "stac_discovery/assets/osw_wind_speed/href": {},
+                        "stac_discovery/assets/osw_wind_speed/title": {},
+                        "stac_discovery/assets/osw_wind_direction/href": {},
+                        "stac_discovery/assets/osw_wind_direction/title": {},
+                        "stac_discovery/assets/osw_i_confidence/href": {},
+                        "stac_discovery/assets/osw_i_confidence/title": {},
+                        "stac_discovery/assets/osw_partition_quality_flag/href": {},
+                        "stac_discovery/assets/osw_partition_quality_flag/title": {},
+                        "stac_discovery/assets/osw_quality_cross_spectra_imaginary/href": {},
+                        "stac_discovery/assets/osw_quality_cross_spectra_imaginary/title": {},
+                        "stac_discovery/assets/osw_quality_cross_spectra_real/href": {},
+                        "stac_discovery/assets/osw_quality_cross_spectra_real/title": {},
+                        "stac_discovery/assets/osw_quality_flag/href": {},
+                        "stac_discovery/assets/osw_quality_flag/title": {},
+                        "stac_discovery/assets/osw_snr/href": {},
+                        "stac_discovery/assets/osw_snr/title": {},
+                        "other_metadata/eopf_category": {},
+                        "other_metadata/title": {},
+                        "other_metadata/mission_phase": {},
+                        "other_metadata/polarisation": {},
+                        "other_metadata/algorithm_version": {},
+                        "other_metadata/gmf": {},
+                        "other_metadata/polarisation_ratio": {},
+                        "other_metadata/processing_start_time": {},
+                        "other_metadata/processing_center": {},
+                        "other_metadata/clm_source": {},
+                        "other_metadata/bathymetry_source": {},
+                        "other_metadata/wind_source": {},
+                        "other_metadata/statevector_utc": {},
+                        "other_metadata/statevector_pos": {},
+                        "other_metadata/statevector_vel": {},
+                        "other_metadata/statevector_acc": {},
+                        "other_metadata/ground_velocity": {},
+                        "other_metadata/prf": {},
+                        "other_metadata/radar_frequency": {},
+                        "other_metadata/radar_sampling_freq": {},
+                        "other_metadata/azimuth_sampling_freq": {},
+                        "other_metadata/noise_correction": {},
+                        "other_metadata/l2rp_version": {},
+                        "other_metadata/osw_status": {},
+                        "processing_history": {
+                            "required": false,
+                            "dont_look_under": true
+                        },
+                        "stac_discovery/properties/processing:software": {
+                            "required": false,
+                            "dont_look_under": true
+                        }
+                    }
+                }
+            },
+            "sub_containers": {},
+            "attrs": {
+                "other_metadata/eopf_category": {},
+                "stac_discovery/properties/product:type": {},
+                "stac_discovery/links": {},
+                "stac_discovery/assets/S01SS4OCN_20240923T062924_0019_A319_E201_06D0EE_VV/href": {},
+                "stac_discovery/properties/processing:software": {
+                    "required": false,
+                    "dont_look_under": true
+                }
+            }
+        },
+        "owi": {
+            "container_type_regex": "S01SEWOCN",
+            "sub_products": {
+                "S01SS4OCN_20240923T062924_0019_A319_E201_06D0EE_VV": {
+                    "product_type_regex": "S01SSMOCN",
+                    "variables": {
+                        "/measurements/wind_speed": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "standard_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/wind_direction": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "standard_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/auxiliary_wind_direction": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "standard_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/auxiliary_wind_speed": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "standard_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/elevation_angle": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/heading": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/incidence_angle": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/mask": {
+                            "dtype": "float64",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nesz": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "polarisation"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nrcs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "polarisation"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nrcs_noise_corrected": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range",
+                                "polarisation"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nrcs_wind_gmf": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/calibration_constant": {
+                            "dtype": "float32",
+                            "dims": [
+                                "calib_const_inc_angles"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/inversion_quality": {
+                            "dtype": "float64",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/percentage_bright_points": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/wind_quality": {
+                            "dtype": "float64",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        }
+                    },
+                    "attrs": {
+                        "stac_discovery/type": {},
+                        "stac_discovery/stac_version": {},
+                        "stac_discovery/stac_extensions": {},
+                        "stac_discovery/id": {},
+                        "stac_discovery/geometry/type": {},
+                        "stac_discovery/geometry/coordinates": {},
+                        "stac_discovery/bbox": {},
+                        "stac_discovery/properties/datetime": {},
+                        "stac_discovery/properties/start_datetime": {},
+                        "stac_discovery/properties/end_datetime": {},
+                        "stac_discovery/properties/created": {},
+                        "stac_discovery/properties/platform": {},
+                        "stac_discovery/properties/instruments": {},
+                        "stac_discovery/properties/constellation": {},
+                        "stac_discovery/properties/product:type": {},
+                        "stac_discovery/properties/product:timeliness_category": {},
+                        "stac_discovery/properties/product:timeliness": {},
+                        "stac_discovery/properties/processing:lineage": {},
+                        "stac_discovery/properties/eopf:datatake_id": {},
+                        "stac_discovery/properties/sar:instrument_mode": {},
+                        "stac_discovery/properties/sat:absolute_orbit": {},
+                        "stac_discovery/properties/sat:orbit_cycle": {},
+                        "stac_discovery/properties/sat:relative_orbit": {},
+                        "stac_discovery/properties/sat:orbit_state": {},
+                        "stac_discovery/properties/processing:version": {},
+                        "stac_discovery/links": {},
+                        "stac_discovery/assets/owi_wind_speed/href": {},
+                        "stac_discovery/assets/owi_wind_speed/title": {},
+                        "stac_discovery/assets/owi_wind_direction/href": {},
+                        "stac_discovery/assets/owi_wind_direction/title": {},
+                        "stac_discovery/assets/owi_auxiliary_wind_direction/href": {},
+                        "stac_discovery/assets/owi_auxiliary_wind_direction/title": {},
+                        "stac_discovery/assets/owi_auxiliary_wind_speed/href": {},
+                        "stac_discovery/assets/owi_auxiliary_wind_speed/title": {},
+                        "stac_discovery/assets/owi_elevation_angle/href": {},
+                        "stac_discovery/assets/owi_elevation_angle/title": {},
+                        "stac_discovery/assets/owi_heading/href": {},
+                        "stac_discovery/assets/owi_heading/title": {},
+                        "stac_discovery/assets/osw_incidence_angle/href": {},
+                        "stac_discovery/assets/osw_incidence_angle/title": {},
+                        "stac_discovery/assets/owi_mask/href": {},
+                        "stac_discovery/assets/owi_mask/title": {},
+                        "stac_discovery/assets/owi_nesz/href": {},
+                        "stac_discovery/assets/owi_nesz/title": {},
+                        "stac_discovery/assets/owi_nrcs/href": {},
+                        "stac_discovery/assets/owi_nrcs/title": {},
+                        "stac_discovery/assets/owi_nrcs_noise_corrected/href": {},
+                        "stac_discovery/assets/owi_nrcs_noise_corrected/title": {},
+                        "stac_discovery/assets/owi_nrcs_wind_gmf/href": {},
+                        "stac_discovery/assets/owi_nrcs_wind_gmf/title": {},
+                        "stac_discovery/assets/owi_calibration_constant/href": {},
+                        "stac_discovery/assets/owi_calibration_constant/title": {},
+                        "stac_discovery/assets/owi_inversion_quality/href": {},
+                        "stac_discovery/assets/owi_inversion_quality/title": {},
+                        "stac_discovery/assets/owi_percentage_bright_points/href": {},
+                        "stac_discovery/assets/owi_percentage_bright_points/title": {},
+                        "stac_discovery/assets/owi_wind_quality/href": {},
+                        "stac_discovery/assets/owi_wind_quality/title": {},
+                        "other_metadata/eopf_category": {},
+                        "other_metadata/title": {},
+                        "other_metadata/mission_phase": {},
+                        "other_metadata/polarisation": {},
+                        "other_metadata/algorithm_version": {},
+                        "other_metadata/gmf": {},
+                        "other_metadata/polarisation_ratio": {},
+                        "other_metadata/processing_start_time": {},
+                        "other_metadata/processing_center": {},
+                        "other_metadata/clm_source": {},
+                        "other_metadata/wind_source": {},
+                        "other_metadata/ice_source": {},
+                        "other_metadata/statevector_utc": {},
+                        "other_metadata/statevector_pos": {},
+                        "other_metadata/statevector_vel": {},
+                        "other_metadata/statevector_acc": {},
+                        "other_metadata/ground_velocity": {},
+                        "other_metadata/prf": {},
+                        "other_metadata/radar_frequency": {},
+                        "other_metadata/radar_sampling_freq": {},
+                        "other_metadata/azimuth_sampling_freq": {},
+                        "other_metadata/noise_correction": {},
+                        "other_metadata/l2rp_version": {},
+                        "other_metadata/owi_status": {},
+                        "processing_history": {
+                            "required": false,
+                            "dont_look_under": true
+                        },
+                        "stac_discovery/properties/processing:software": {
+                            "required": false,
+                            "dont_look_under": true
+                        }
+                    }
+                }
+            },
+            "sub_containers": {},
+            "attrs": {
+                "other_metadata/eopf_category": {},
+                "stac_discovery/properties/product:type": {},
+                "stac_discovery/links": {},
+                "stac_discovery/assets/S01SS4OCN_20240923T062924_0019_A319_E201_06D0EE_VV/href": {},
+                "stac_discovery/properties/processing:software": {
+                    "required": false,
+                    "dont_look_under": true
+                }
+            }
+        },
+        "rvl": {
+            "container_type_regex": "S01SEWOCN",
+            "sub_products": {
+                "S01SS4OCN_20240923T062924_0019_A319_E201_06D0EE_VV": {
+                    "product_type_regex": "S01SSMOCN",
+                    "variables": {
+                        "/measurements/radial_velocity": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/measurements/radial_velocity_standard_deviation": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/azimuth_size": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/dc_obs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/dc_geo": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/dc_miss": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/ground_range_size": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/heading": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/incidence_angle": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/nrcs": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/pitch": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/roll": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/land_coverage": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_min": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "valid_max": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/land_flag": {
+                            "dtype": "bool",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/slant_range_time": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/stokes_drift_x": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/stokes_drift_y": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/sweep_angle": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/yaw": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/conditions/zero_doppler_time": {
+                            "dtype": "datetime64[ns]",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/dc_obs_confidence": {
+                            "dtype": "bool",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_values": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "flag_meanings": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/dc_obs_std": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        },
+                        "/quality/snr": {
+                            "dtype": "float32",
+                            "dims": [
+                                "azimuth",
+                                "range"
+                            ],
+                            "attrs": {
+                                "units": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "long_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dtype": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "short_name": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "fill_value": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "eopf_is_masked": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "dimensions": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                },
+                                "coordinates": {
+                                    "required": false,
+                                    "dont_look_under": false
+                                }
+                            }
+                        }
+                    },
+                    "attrs": {
+                        "stac_discovery/type": {},
+                        "stac_discovery/stac_version": {},
+                        "stac_discovery/stac_extensions": {},
+                        "stac_discovery/id": {},
+                        "stac_discovery/geometry/type": {},
+                        "stac_discovery/geometry/coordinates": {},
+                        "stac_discovery/bbox": {},
+                        "stac_discovery/properties/datetime": {},
+                        "stac_discovery/properties/start_datetime": {},
+                        "stac_discovery/properties/end_datetime": {},
+                        "stac_discovery/properties/created": {},
+                        "stac_discovery/properties/platform": {},
+                        "stac_discovery/properties/instruments": {},
+                        "stac_discovery/properties/constellation": {},
+                        "stac_discovery/properties/product:type": {},
+                        "stac_discovery/properties/product:timeliness_category": {},
+                        "stac_discovery/properties/product:timeliness": {},
+                        "stac_discovery/properties/processing:lineage": {},
+                        "stac_discovery/properties/eopf:datatake_id": {},
+                        "stac_discovery/properties/sar:instrument_mode": {},
+                        "stac_discovery/properties/sat:absolute_orbit": {},
+                        "stac_discovery/properties/sat:orbit_cycle": {},
+                        "stac_discovery/properties/sat:relative_orbit": {},
+                        "stac_discovery/properties/sat:orbit_state": {},
+                        "stac_discovery/properties/processing:version": {},
+                        "stac_discovery/links": {},
+                        "stac_discovery/assets/radial_velocity/href": {},
+                        "stac_discovery/assets/radial_velocity/title": {},
+                        "stac_discovery/assets/radial_velocity_std/href": {},
+                        "stac_discovery/assets/radial_velocity_std/title": {},
+                        "stac_discovery/assets/rvl_azimuth_size/href": {},
+                        "stac_discovery/assets/rvl_azimuth_size/title": {},
+                        "stac_discovery/assets/rvl_dc_obs/href": {},
+                        "stac_discovery/assets/rvl_dc_obs/title": {},
+                        "stac_discovery/assets/rvl_dc_geo/href": {},
+                        "stac_discovery/assets/rvl_dc_geo/title": {},
+                        "stac_discovery/assets/rvl_dc_miss/href": {},
+                        "stac_discovery/assets/rvl_dc_miss/title": {},
+                        "stac_discovery/assets/rvl_ground_range_size/href": {},
+                        "stac_discovery/assets/rvl_ground_range_size/title": {},
+                        "stac_discovery/assets/rvl_heading/href": {},
+                        "stac_discovery/assets/rvl_heading/title": {},
+                        "stac_discovery/assets/rvl_incidence_angle/href": {},
+                        "stac_discovery/assets/rvl_incidence_angle/title": {},
+                        "stac_discovery/assets/rvl_nrcs/href": {},
+                        "stac_discovery/assets/rvl_nrcs/title": {},
+                        "stac_discovery/assets/rvl_pitch/href": {},
+                        "stac_discovery/assets/rvl_pitch/title": {},
+                        "stac_discovery/assets/rvl_roll/href": {},
+                        "stac_discovery/assets/rvl_roll/title": {},
+                        "stac_discovery/assets/rvl_land_coverage/href": {},
+                        "stac_discovery/assets/rvl_land_coverage/title": {},
+                        "stac_discovery/assets/rvl_land_flag/href": {},
+                        "stac_discovery/assets/rvl_land_flag/title": {},
+                        "stac_discovery/assets/rvl_slant_range_time/href": {},
+                        "stac_discovery/assets/rvl_slant_range_time/title": {},
+                        "stac_discovery/assets/rvl_stokes_drift_x/href": {},
+                        "stac_discovery/assets/rvl_stokes_drift_x/title": {},
+                        "stac_discovery/assets/rvl_stokes_drift_y/href": {},
+                        "stac_discovery/assets/rvl_stokes_drift_y/title": {},
+                        "stac_discovery/assets/rvl_sweep_angle/href": {},
+                        "stac_discovery/assets/rvl_sweep_angle/title": {},
+                        "stac_discovery/assets/rvl_yaw/href": {},
+                        "stac_discovery/assets/rvl_yaw/title": {},
+                        "stac_discovery/assets/rvl_zero_doppler_time/href": {},
+                        "stac_discovery/assets/rvl_zero_doppler_time/title": {},
+                        "stac_discovery/assets/rvl_dc_obs_confidence/href": {},
+                        "stac_discovery/assets/rvl_dc_obs_confidence/title": {},
+                        "stac_discovery/assets/rvl_dc_obs_std/href": {},
+                        "stac_discovery/assets/rvl_dc_obs_std/title": {},
+                        "stac_discovery/assets/rvl_snr/href": {},
+                        "stac_discovery/assets/rvl_snr/title": {},
+                        "other_metadata/eopf_category": {},
+                        "other_metadata/title": {},
+                        "other_metadata/mission_phase": {},
+                        "other_metadata/polarisation": {},
+                        "other_metadata/algorithm_version": {},
+                        "other_metadata/processing_start_time": {},
+                        "other_metadata/processing_center": {},
+                        "other_metadata/clm_source": {},
+                        "other_metadata/stokes_source": {},
+                        "other_metadata/statevector_utc": {},
+                        "other_metadata/statevector_pos": {},
+                        "other_metadata/statevector_vel": {},
+                        "other_metadata/statevector_acc": {},
+                        "other_metadata/ground_velocity": {},
+                        "other_metadata/prf": {},
+                        "other_metadata/radar_frequency": {},
+                        "other_metadata/radar_sampling_freq": {},
+                        "other_metadata/azimuth_sampling_freq": {},
+                        "other_metadata/rvl_status": {},
+                        "processing_history": {
+                            "required": false,
+                            "dont_look_under": true
+                        },
+                        "stac_discovery/properties/processing:software": {
+                            "required": false,
+                            "dont_look_under": true
+                        }
+                    }
+                }
+            },
+            "sub_containers": {},
+            "attrs": {
+                "other_metadata/eopf_category": {},
+                "stac_discovery/properties/product:type": {},
+                "stac_discovery/links": {},
+                "stac_discovery/assets/S01SS4OCN_20240923T062924_0019_A319_E201_06D0EE_VV/href": {},
+                "stac_discovery/properties/processing:software": {
+                    "required": false,
+                    "dont_look_under": true
+                }
+            }
+        }
+    },
+    "attrs": {
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/id": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/eopf:datatake_id": {},
+        "stac_discovery/properties/sar:instrument_mode": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:orbit_cycle": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/links": {},
+        "stac_discovery/assets/osw/href": {},
+        "stac_discovery/assets/owi/href": {},
+        "stac_discovery/assets/rvl/href": {},
+        "other_metadata/eopf_category": {},
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}

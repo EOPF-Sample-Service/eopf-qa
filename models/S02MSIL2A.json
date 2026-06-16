@@ -1,0 +1,4228 @@
+{
+    "product_type_regex": "S02MSIL2A",
+    "variables": {
+        "/conditions/geometry/sun_angles": {
+            "dtype": "float64",
+            "dims": [
+                "angle",
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/mean_sun_angles": {
+            "dtype": "float64",
+            "dims": [
+                "angle"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/viewing_incidence_angles": {
+            "dtype": "float64",
+            "dims": [
+                "band",
+                "detector",
+                "angle",
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/mean_viewing_incidence_angles": {
+            "dtype": "float64",
+            "dims": [
+                "band",
+                "angle"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/l2a_classification/r60m/scl": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/l2a_classification/r20m/scl": {
+            "dtype": "int64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/l1c_classification/r60m/b00": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r60m/b01": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r60m/b09": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r60m/b10": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r10m/b02": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r10m/b03": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r10m/b04": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r10m/b08": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r20m/b05": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r20m/b06": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r20m/b07": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r20m/b8a": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r20m/b11": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/mask/detector_footprint/r20m/b12": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ecmwf/tcwv": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ecmwf/msl": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ecmwf/tco3": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ecmwf/u10": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ecmwf/v10": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ecmwf/r": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/z": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/aod469": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/aod550": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/aod670": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/aod865": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/bcaod550": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/aod1240": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/duaod550": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/omaod550": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/ssaod550": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cams/suaod550": {
+            "dtype": "float32",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b01": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b02": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b03": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b04": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b05": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b06": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b07": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b8a": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b09": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b11": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r60m/b12": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b01": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b02": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b03": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b04": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b05": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b06": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b07": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b8a": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b11": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r20m/b12": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r10m/b03": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r10m/b08": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r10m/b04": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/reflectance/r10m/b02": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/atmosphere/r60m/aot": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/atmosphere/r60m/wvp": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/atmosphere/r20m/aot": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/atmosphere/r20m/wvp": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/atmosphere/r10m/aot": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/atmosphere/r10m/wvp": {
+            "dtype": "float64",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/probability/r20m/snw": {
+            "dtype": "float32",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/probability/r20m/cld": {
+            "dtype": "float32",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r60m/b01": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r60m/b09": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r60m/b10": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r10m/b02": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r10m/b03": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r10m/b04": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r10m/b08": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r20m/b05": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r20m/b06": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r20m/b07": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r20m/b8a": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r20m/b11": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/mask/r20m/b12": {
+            "dtype": "uint8",
+            "dims": [
+                "y",
+                "x"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        }
+    },
+    "attrs": {
+        "stac_discovery/properties/proj:bbox": {},
+        "stac_discovery/properties/proj:transform": {},
+        "stac_discovery/properties/proj:wkt2": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/providers": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/sat:platform_international_designator": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/processing:facility": {},
+        "stac_discovery/properties/processing:level": {},
+        "stac_discovery/properties/eo:cloud_cover": {},
+        "stac_discovery/properties/eo:snow_cover": {},
+        "stac_discovery/properties/bands": {},
+        "stac_discovery/properties/proj:code": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/eopf:instrument_mode": {},
+        "stac_discovery/properties/eopf:datatake_id": {},
+        "stac_discovery/properties/eopf:datastrip_id": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sci:doi": {},
+        "stac_discovery/properties/processing:version": {},
+        "stac_discovery/assets/sun_angles/href": {},
+        "stac_discovery/assets/sun_angles/title": {},
+        "stac_discovery/assets/mean_sun_angles/href": {},
+        "stac_discovery/assets/mean_sun_angles/title": {},
+        "stac_discovery/assets/b01_60m/href": {},
+        "stac_discovery/assets/b01_60m/title": {},
+        "stac_discovery/assets/b02_60m/href": {},
+        "stac_discovery/assets/b02_60m/title": {},
+        "stac_discovery/assets/b03_60m/href": {},
+        "stac_discovery/assets/b03_60m/title": {},
+        "stac_discovery/assets/b04_60m/href": {},
+        "stac_discovery/assets/b04_60m/title": {},
+        "stac_discovery/assets/b05_60m/href": {},
+        "stac_discovery/assets/b05_60m/title": {},
+        "stac_discovery/assets/b06_60m/href": {},
+        "stac_discovery/assets/b06_60m/title": {},
+        "stac_discovery/assets/b07_60m/href": {},
+        "stac_discovery/assets/b07_60m/title": {},
+        "stac_discovery/assets/b8a_r60m/href": {},
+        "stac_discovery/assets/b8a_r60m/title": {},
+        "stac_discovery/assets/b09_r60m/href": {},
+        "stac_discovery/assets/b09_r60m/title": {},
+        "stac_discovery/assets/b11_60m/href": {},
+        "stac_discovery/assets/b11_60m/title": {},
+        "stac_discovery/assets/b12_r60m/href": {},
+        "stac_discovery/assets/b12_r60m/title": {},
+        "stac_discovery/assets/aot_r60m/href": {},
+        "stac_discovery/assets/aot_r60m/title": {},
+        "stac_discovery/assets/wvp_r60m/href": {},
+        "stac_discovery/assets/wvp_r60m/title": {},
+        "stac_discovery/assets/scl_r60m/href": {},
+        "stac_discovery/assets/scl_r60m/title": {},
+        "stac_discovery/assets/b01_r20m/href": {},
+        "stac_discovery/assets/b01_r20m/title": {},
+        "stac_discovery/assets/b02_r20m/href": {},
+        "stac_discovery/assets/b02_r20m/title": {},
+        "stac_discovery/assets/b03_r10m/href": {},
+        "stac_discovery/assets/b03_r10m/title": {},
+        "stac_discovery/assets/b03_r20m/href": {},
+        "stac_discovery/assets/b03_r20m/title": {},
+        "stac_discovery/assets/b04_r20m/href": {},
+        "stac_discovery/assets/b04_r20m/title": {},
+        "stac_discovery/assets/b05_r20m/href": {},
+        "stac_discovery/assets/b05_r20m/title": {},
+        "stac_discovery/assets/b06_r20m/href": {},
+        "stac_discovery/assets/b06_r20m/title": {},
+        "stac_discovery/assets/b07_r20m/href": {},
+        "stac_discovery/assets/b07_r20m/title": {},
+        "stac_discovery/assets/b8a_r20m/href": {},
+        "stac_discovery/assets/b8a_r20m/title": {},
+        "stac_discovery/assets/b11_r20m/href": {},
+        "stac_discovery/assets/b11_r20m/title": {},
+        "stac_discovery/assets/b12_r20m/href": {},
+        "stac_discovery/assets/b12_r20m/title": {},
+        "stac_discovery/assets/aot_r20m/href": {},
+        "stac_discovery/assets/aot_r20m/title": {},
+        "stac_discovery/assets/wvp_r20m/href": {},
+        "stac_discovery/assets/wvp_r20m/title": {},
+        "stac_discovery/assets/scl_r20m/href": {},
+        "stac_discovery/assets/scl_r20m/title": {},
+        "stac_discovery/assets/aot/href": {},
+        "stac_discovery/assets/aot/title": {},
+        "stac_discovery/assets/wvc/href": {},
+        "stac_discovery/assets/wvc/title": {},
+        "stac_discovery/assets/b08_r10m/href": {},
+        "stac_discovery/assets/b08_r10m/title": {},
+        "stac_discovery/assets/b04_r10m/href": {},
+        "stac_discovery/assets/b04_r10m/title": {},
+        "stac_discovery/assets/b02_10m/href": {},
+        "stac_discovery/assets/b02_10m/title": {},
+        "stac_discovery/assets/snw/href": {},
+        "stac_discovery/assets/snw/title": {},
+        "stac_discovery/assets/cld/href": {},
+        "stac_discovery/assets/cld/title": {},
+        "stac_discovery/assets/msk_cls_b00/href": {},
+        "stac_discovery/assets/msk_cls_b00/title": {},
+        "stac_discovery/assets/msk_quality_b01/href": {},
+        "stac_discovery/assets/msk_quality_b01/title": {},
+        "stac_discovery/assets/msk_quality_b02/href": {},
+        "stac_discovery/assets/msk_quality_b02/title": {},
+        "stac_discovery/assets/msk_quality_b03/href": {},
+        "stac_discovery/assets/msk_quality_b03/title": {},
+        "stac_discovery/assets/msk_quality_b04/href": {},
+        "stac_discovery/assets/msk_quality_b04/title": {},
+        "stac_discovery/assets/msk_quality_b05/href": {},
+        "stac_discovery/assets/msk_quality_b05/title": {},
+        "stac_discovery/assets/msk_quality_b06/href": {},
+        "stac_discovery/assets/msk_quality_b06/title": {},
+        "stac_discovery/assets/msk_quality_b07/href": {},
+        "stac_discovery/assets/msk_quality_b07/title": {},
+        "stac_discovery/assets/msk_quality_b08/href": {},
+        "stac_discovery/assets/msk_quality_b08/title": {},
+        "stac_discovery/assets/msk_quality_b8a/href": {},
+        "stac_discovery/assets/msk_quality_b8a/title": {},
+        "stac_discovery/assets/msk_quality_b09/href": {},
+        "stac_discovery/assets/msk_quality_b09/title": {},
+        "stac_discovery/assets/msk_quality_b10/href": {},
+        "stac_discovery/assets/msk_quality_b10/title": {},
+        "stac_discovery/assets/msk_quality_b11/href": {},
+        "stac_discovery/assets/msk_quality_b11/title": {},
+        "stac_discovery/assets/msk_quality_b12/href": {},
+        "stac_discovery/assets/msk_quality_b12/title": {},
+        "stac_discovery/assets/msk_detfoo_b01/href": {},
+        "stac_discovery/assets/msk_detfoo_b01/title": {},
+        "stac_discovery/assets/msk_detfoo_b02/href": {},
+        "stac_discovery/assets/msk_detfoo_b02/title": {},
+        "stac_discovery/assets/msk_detfoo_b03/href": {},
+        "stac_discovery/assets/msk_detfoo_b03/title": {},
+        "stac_discovery/assets/msk_detfoo_b04/href": {},
+        "stac_discovery/assets/msk_detfoo_b04/title": {},
+        "stac_discovery/assets/msk_detfoo_b05/href": {},
+        "stac_discovery/assets/msk_detfoo_b05/title": {},
+        "stac_discovery/assets/msk_detfoo_b06/href": {},
+        "stac_discovery/assets/msk_detfoo_b06/title": {},
+        "stac_discovery/assets/msk_detfoo_b07/href": {},
+        "stac_discovery/assets/msk_detfoo_b07/title": {},
+        "stac_discovery/assets/msk_detfoo_b08/href": {},
+        "stac_discovery/assets/msk_detfoo_b08/title": {},
+        "stac_discovery/assets/msk_detfoo_b8a/href": {},
+        "stac_discovery/assets/msk_detfoo_b8a/title": {},
+        "stac_discovery/assets/msk_detfoo_b09/href": {},
+        "stac_discovery/assets/msk_detfoo_b09/title": {},
+        "stac_discovery/assets/msk_detfoo_b10/href": {},
+        "stac_discovery/assets/msk_detfoo_b10/title": {},
+        "stac_discovery/assets/msk_detfoo_b11/href": {},
+        "stac_discovery/assets/msk_detfoo_b11/title": {},
+        "stac_discovery/assets/msk_detfoo_b12/href": {},
+        "stac_discovery/assets/msk_detfoo_b12/title": {},
+        "stac_discovery/assets/viewing_incidence_angles/href": {},
+        "stac_discovery/assets/viewing_incidence_angles/title": {},
+        "stac_discovery/assets/mean_viewing_incidence_angles/href": {},
+        "stac_discovery/assets/mean_viewing_incidence_angles/title": {},
+        "stac_discovery/assets/tcwv/href": {},
+        "stac_discovery/assets/tcwv/title": {},
+        "stac_discovery/assets/msl/href": {},
+        "stac_discovery/assets/msl/title": {},
+        "stac_discovery/assets/tco3/href": {},
+        "stac_discovery/assets/tco3/title": {},
+        "stac_discovery/assets/u10/href": {},
+        "stac_discovery/assets/u10/title": {},
+        "stac_discovery/assets/v10/href": {},
+        "stac_discovery/assets/v10/title": {},
+        "stac_discovery/assets/r/href": {},
+        "stac_discovery/assets/r/title": {},
+        "stac_discovery/assets/z/href": {},
+        "stac_discovery/assets/z/title": {},
+        "stac_discovery/assets/aod469/href": {},
+        "stac_discovery/assets/aod469/title": {},
+        "stac_discovery/assets/aod550/href": {},
+        "stac_discovery/assets/aod550/title": {},
+        "stac_discovery/assets/aod670/href": {},
+        "stac_discovery/assets/aod670/title": {},
+        "stac_discovery/assets/aod865/href": {},
+        "stac_discovery/assets/aod865/title": {},
+        "stac_discovery/assets/bcaod550/href": {},
+        "stac_discovery/assets/bcaod550/title": {},
+        "stac_discovery/assets/aod1240/href": {},
+        "stac_discovery/assets/aod1240/title": {},
+        "stac_discovery/assets/duaod550/href": {},
+        "stac_discovery/assets/duaod550/title": {},
+        "stac_discovery/assets/omaod550/href": {},
+        "stac_discovery/assets/omaod550/title": {},
+        "stac_discovery/assets/ssaod550/href": {},
+        "stac_discovery/assets/ssaod550/title": {},
+        "stac_discovery/assets/suaod550/href": {},
+        "stac_discovery/assets/suaod550/title": {},
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/links": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/id": {},
+        "other_metadata/eopf_category": {},
+        "other_metadata/utm_zone_identification": {},
+        "other_metadata/horizontal_crs_name": {},
+        "other_metadata/horizontal_crs_code": {},
+        "other_metadata/mean_sensing_time": {},
+        "other_metadata/mean_sun_azimuth_angle_in_deg_for_all_bands_all_detectors": {},
+        "other_metadata/mean_sun_zenith_angle_in_deg_for_all_bands_all_detectors": {},
+        "other_metadata/declared_accuracy_of_radiative_transfer_model": {},
+        "other_metadata/declared_accuracy_of_water_vapour_model": {},
+        "other_metadata/declared_accuracy_of_aot_model": {},
+        "other_metadata/aot_retrieval_model": {},
+        "other_metadata/mean_value_of_aerosol_optical_thickness": {},
+        "other_metadata/mean_value_of_total_water_vapour_content": {},
+        "other_metadata/ozone_source": {},
+        "other_metadata/ozone_value": {},
+        "other_metadata/onboard_equalization_flag": {},
+        "other_metadata/swir_rearrangement_flag": {},
+        "other_metadata/optical_crosstalk_correction_flag": {},
+        "other_metadata/electronic_crosstalk_correction_flag": {},
+        "other_metadata/band_description/01/units": {},
+        "other_metadata/band_description/01/bandwidth": {},
+        "other_metadata/band_description/01/central_wavelength": {},
+        "other_metadata/band_description/01/wavelength_min": {},
+        "other_metadata/band_description/01/wavelength_max": {},
+        "other_metadata/band_description/01/spectral_response_step": {},
+        "other_metadata/band_description/01/spectral_response_values": {},
+        "other_metadata/band_description/01/physical_gain": {},
+        "other_metadata/band_description/01/onboard_compression_rate": {},
+        "other_metadata/band_description/01/onboard_integration_time": {},
+        "other_metadata/band_description/02/units": {},
+        "other_metadata/band_description/02/bandwidth": {},
+        "other_metadata/band_description/02/central_wavelength": {},
+        "other_metadata/band_description/02/wavelength_min": {},
+        "other_metadata/band_description/02/wavelength_max": {},
+        "other_metadata/band_description/02/spectral_response_step": {},
+        "other_metadata/band_description/02/spectral_response_values": {},
+        "other_metadata/band_description/02/physical_gain": {},
+        "other_metadata/band_description/02/onboard_compression_rate": {},
+        "other_metadata/band_description/02/onboard_integration_time": {},
+        "other_metadata/band_description/03/units": {},
+        "other_metadata/band_description/03/bandwidth": {},
+        "other_metadata/band_description/03/central_wavelength": {},
+        "other_metadata/band_description/03/wavelength_min": {},
+        "other_metadata/band_description/03/wavelength_max": {},
+        "other_metadata/band_description/03/spectral_response_step": {},
+        "other_metadata/band_description/03/spectral_response_values": {},
+        "other_metadata/band_description/03/physical_gain": {},
+        "other_metadata/band_description/03/onboard_compression_rate": {},
+        "other_metadata/band_description/03/onboard_integration_time": {},
+        "other_metadata/band_description/04/units": {},
+        "other_metadata/band_description/04/bandwidth": {},
+        "other_metadata/band_description/04/central_wavelength": {},
+        "other_metadata/band_description/04/wavelength_min": {},
+        "other_metadata/band_description/04/wavelength_max": {},
+        "other_metadata/band_description/04/spectral_response_step": {},
+        "other_metadata/band_description/04/spectral_response_values": {},
+        "other_metadata/band_description/04/physical_gain": {},
+        "other_metadata/band_description/04/onboard_compression_rate": {},
+        "other_metadata/band_description/04/onboard_integration_time": {},
+        "other_metadata/band_description/05/units": {},
+        "other_metadata/band_description/05/bandwidth": {},
+        "other_metadata/band_description/05/central_wavelength": {},
+        "other_metadata/band_description/05/wavelength_min": {},
+        "other_metadata/band_description/05/wavelength_max": {},
+        "other_metadata/band_description/05/spectral_response_step": {},
+        "other_metadata/band_description/05/spectral_response_values": {},
+        "other_metadata/band_description/05/physical_gain": {},
+        "other_metadata/band_description/05/onboard_compression_rate": {},
+        "other_metadata/band_description/05/onboard_integration_time": {},
+        "other_metadata/band_description/06/units": {},
+        "other_metadata/band_description/06/bandwidth": {},
+        "other_metadata/band_description/06/central_wavelength": {},
+        "other_metadata/band_description/06/wavelength_min": {},
+        "other_metadata/band_description/06/wavelength_max": {},
+        "other_metadata/band_description/06/spectral_response_step": {},
+        "other_metadata/band_description/06/spectral_response_values": {},
+        "other_metadata/band_description/06/physical_gain": {},
+        "other_metadata/band_description/06/onboard_compression_rate": {},
+        "other_metadata/band_description/06/onboard_integration_time": {},
+        "other_metadata/band_description/07/units": {},
+        "other_metadata/band_description/07/bandwidth": {},
+        "other_metadata/band_description/07/central_wavelength": {},
+        "other_metadata/band_description/07/wavelength_min": {},
+        "other_metadata/band_description/07/wavelength_max": {},
+        "other_metadata/band_description/07/spectral_response_step": {},
+        "other_metadata/band_description/07/spectral_response_values": {},
+        "other_metadata/band_description/07/physical_gain": {},
+        "other_metadata/band_description/07/onboard_compression_rate": {},
+        "other_metadata/band_description/07/onboard_integration_time": {},
+        "other_metadata/band_description/08/units": {},
+        "other_metadata/band_description/08/bandwidth": {},
+        "other_metadata/band_description/08/central_wavelength": {},
+        "other_metadata/band_description/08/wavelength_min": {},
+        "other_metadata/band_description/08/wavelength_max": {},
+        "other_metadata/band_description/08/spectral_response_step": {},
+        "other_metadata/band_description/08/spectral_response_values": {},
+        "other_metadata/band_description/08/physical_gain": {},
+        "other_metadata/band_description/08/onboard_compression_rate": {},
+        "other_metadata/band_description/08/onboard_integration_time": {},
+        "other_metadata/band_description/8A/units": {},
+        "other_metadata/band_description/8A/bandwidth": {},
+        "other_metadata/band_description/8A/central_wavelength": {},
+        "other_metadata/band_description/8A/wavelength_min": {},
+        "other_metadata/band_description/8A/wavelength_max": {},
+        "other_metadata/band_description/8A/spectral_response_step": {},
+        "other_metadata/band_description/8A/spectral_response_values": {},
+        "other_metadata/band_description/8A/physical_gain": {},
+        "other_metadata/band_description/8A/onboard_compression_rate": {},
+        "other_metadata/band_description/8A/onboard_integration_time": {},
+        "other_metadata/band_description/09/units": {},
+        "other_metadata/band_description/09/bandwidth": {},
+        "other_metadata/band_description/09/central_wavelength": {},
+        "other_metadata/band_description/09/wavelength_min": {},
+        "other_metadata/band_description/09/wavelength_max": {},
+        "other_metadata/band_description/09/spectral_response_step": {},
+        "other_metadata/band_description/09/spectral_response_values": {},
+        "other_metadata/band_description/09/physical_gain": {},
+        "other_metadata/band_description/09/onboard_compression_rate": {},
+        "other_metadata/band_description/09/onboard_integration_time": {},
+        "other_metadata/band_description/10/units": {},
+        "other_metadata/band_description/10/bandwidth": {},
+        "other_metadata/band_description/10/central_wavelength": {},
+        "other_metadata/band_description/10/wavelength_min": {},
+        "other_metadata/band_description/10/wavelength_max": {},
+        "other_metadata/band_description/10/spectral_response_step": {},
+        "other_metadata/band_description/10/spectral_response_values": {},
+        "other_metadata/band_description/10/physical_gain": {},
+        "other_metadata/band_description/10/onboard_compression_rate": {},
+        "other_metadata/band_description/10/onboard_integration_time": {},
+        "other_metadata/band_description/11/units": {},
+        "other_metadata/band_description/11/bandwidth": {},
+        "other_metadata/band_description/11/central_wavelength": {},
+        "other_metadata/band_description/11/wavelength_min": {},
+        "other_metadata/band_description/11/wavelength_max": {},
+        "other_metadata/band_description/11/spectral_response_step": {},
+        "other_metadata/band_description/11/spectral_response_values": {},
+        "other_metadata/band_description/11/physical_gain": {},
+        "other_metadata/band_description/11/onboard_compression_rate": {},
+        "other_metadata/band_description/11/onboard_integration_time": {},
+        "other_metadata/band_description/12/units": {},
+        "other_metadata/band_description/12/bandwidth": {},
+        "other_metadata/band_description/12/central_wavelength": {},
+        "other_metadata/band_description/12/wavelength_min": {},
+        "other_metadata/band_description/12/wavelength_max": {},
+        "other_metadata/band_description/12/spectral_response_step": {},
+        "other_metadata/band_description/12/spectral_response_values": {},
+        "other_metadata/band_description/12/physical_gain": {},
+        "other_metadata/band_description/12/onboard_compression_rate": {},
+        "other_metadata/band_description/12/onboard_integration_time": {},
+        "other_metadata/geometric_refinement/spacecraft_rotation/X/degree": {},
+        "other_metadata/geometric_refinement/spacecraft_rotation/X/coefficients": {},
+        "other_metadata/geometric_refinement/spacecraft_rotation/Y/degree": {},
+        "other_metadata/geometric_refinement/spacecraft_rotation/Y/coefficients": {},
+        "other_metadata/geometric_refinement/spacecraft_rotation/Z/degree": {},
+        "other_metadata/geometric_refinement/spacecraft_rotation/Z/coefficients": {},
+        "other_metadata/geometric_refinement/mean_value_of_residual_displacements_at_all_tie_points_after_refinement_m/x_mean": {},
+        "other_metadata/geometric_refinement/mean_value_of_residual_displacements_at_all_tie_points_after_refinement_m/y_mean": {},
+        "other_metadata/geometric_refinement/standard_deviation_of_residual_displacements_at_all_tie_points_after_refinement_m/x_stdv": {},
+        "other_metadata/geometric_refinement/standard_deviation_of_residual_displacements_at_all_tie_points_after_refinement_m/y_stdv": {},
+        "other_metadata/reflectance_correction_factor_from_the_sun_earth_distance_variation_computed_using_the_acquisition_date": {},
+        "other_metadata/product_quality_status": {},
+        "other_metadata/nuc_table_id": {},
+        "other_metadata/onboard_compression_flag": {},
+        "processing_history": {
+            "required": false,
+            "dont_look_under": true
+        },
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}

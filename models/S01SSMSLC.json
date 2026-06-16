@@ -1,0 +1,2204 @@
+{
+    "container_type_regex": "S01SSMSLC",
+    "sub_products": {
+        "S01SS6SLC_20240923T195131_0019_A319_E690_06D144_VH": {
+            "product_type_regex": "S01SSMSLC",
+            "variables": {
+                "/measurements/slc": {
+                    "dtype": "complex64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/data_dc_polynomial": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "degree"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/data_dc_rms_error": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/data_dc_rms_error_above_threshold": {
+                    "dtype": "bool",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/fine_dce_azimuth_start_time": {
+                    "dtype": "bool",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/fine_dce_azimuth_stop_time": {
+                    "dtype": "bool",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/geometry_dc_polynomial": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "degree"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/t0": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/azimuth_time_gcp": {
+                    "dtype": "datetime64[ns]",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/slant_range_time_gcp": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/elevation_angle": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/height": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/incidence_angle": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/latitude": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/longitude": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/pitch": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q0": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q1": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q2": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q3": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/roll": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/wx": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/wy": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/wz": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/yaw": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/orbit/position": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "axis"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/orbit/velocity": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "axis"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/swath": {
+                    "dtype": "<U3",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/slant_range_time_ap": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "count"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/elevation_angle": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "count"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/incidence_angle": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "count"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/roll": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/terrain_height": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/noise_range/noise_range_lut": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/dn": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/gamma": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/sigma_nought": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/beta_nought": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                }
+            },
+            "attrs": {
+                "stac_discovery/type": {},
+                "stac_discovery/stac_version": {},
+                "stac_discovery/stac_extensions": {},
+                "stac_discovery/id": {},
+                "stac_discovery/geometry/type": {},
+                "stac_discovery/geometry/coordinates": {},
+                "stac_discovery/bbox": {},
+                "stac_discovery/properties/sar:pixel_spacing_range": {},
+                "stac_discovery/properties/sar:pixel_spacing_azimuth": {},
+                "stac_discovery/properties/view:incidence_angle": {},
+                "stac_discovery/properties/sar:center_frequency": {},
+                "stac_discovery/properties/sar:polarization": {},
+                "stac_discovery/properties/datetime": {},
+                "stac_discovery/properties/start_datetime": {},
+                "stac_discovery/properties/end_datetime": {},
+                "stac_discovery/properties/created": {},
+                "stac_discovery/properties/platform": {},
+                "stac_discovery/properties/instruments": {},
+                "stac_discovery/properties/provider": {},
+                "stac_discovery/properties/constellation": {},
+                "stac_discovery/properties/product:type": {},
+                "stac_discovery/properties/product:timeliness_category": {},
+                "stac_discovery/properties/product:timeliness": {},
+                "stac_discovery/properties/processing:lineage": {},
+                "stac_discovery/properties/eopf:datatake_id": {},
+                "stac_discovery/properties/eopf:instrument_mode": {},
+                "stac_discovery/properties/sat:platform_international_designator": {},
+                "stac_discovery/properties/sat:absolute_orbit": {},
+                "stac_discovery/properties/sat:relative_orbit": {},
+                "stac_discovery/properties/sat:orbit_state": {},
+                "stac_discovery/properties/sat:anx_datetime": {},
+                "stac_discovery/properties/sar:instrument_mode": {},
+                "stac_discovery/properties/sar:frequency_band": {},
+                "stac_discovery/properties/sar:beam_ids": {},
+                "stac_discovery/properties/processing:version": {},
+                "stac_discovery/links": {},
+                "stac_discovery/detectionPerformed": {},
+                "stac_discovery/thermalNoiseCorrectionPerformed": {},
+                "other_metadata/eopf_category": {},
+                "other_metadata/title": {},
+                "other_metadata/image_number": {},
+                "other_metadata/timeliness_category": {},
+                "other_metadata/projection": {},
+                "other_metadata/range_sampling_rate": {},
+                "other_metadata/processing_information/processor_scaling_factor": {},
+                "other_metadata/processing_information/range_processing/window_type": {},
+                "other_metadata/processing_information/range_processing/window_coefficient": {},
+                "other_metadata/processing_information/range_processing/total_bandwidth": {},
+                "other_metadata/processing_information/range_processing/processing_bandwidth": {},
+                "other_metadata/processing_information/range_processing/look_bandwidth": {},
+                "other_metadata/processing_information/range_processing/number_of_looks": {},
+                "other_metadata/processing_information/range_processing/look_overlap": {},
+                "other_metadata/processing_information/azimuth_processing/window_type": {},
+                "other_metadata/processing_information/azimuth_processing/window_coefficient": {},
+                "other_metadata/processing_information/azimuth_processing/total_bandwidth": {},
+                "other_metadata/processing_information/azimuth_processing/processing_bandwidth": {},
+                "other_metadata/processing_information/azimuth_processing/look_bandwidth": {},
+                "other_metadata/processing_information/azimuth_processing/number_of_looks": {},
+                "other_metadata/processing_information/azimuth_processing/look_overlap": {},
+                "other_metadata/processing_information/input_dimensions/azimuth_time": {},
+                "other_metadata/processing_information/input_dimensions/number_of_input_samples": {},
+                "other_metadata/processing_information/input_dimensions/number_of_input_lines": {},
+                "other_metadata/quality_information/product_quality_index": {},
+                "other_metadata/quality_information/quality_data_list": {},
+                "other_metadata/general_annotation/product_information/pass": {},
+                "other_metadata/general_annotation/product_information/timeliness_category": {},
+                "other_metadata/general_annotation/product_information/platform_heading": {},
+                "other_metadata/general_annotation/product_information/projection": {},
+                "other_metadata/general_annotation/product_information/range_sampling_rate": {},
+                "other_metadata/general_annotation/product_information/radar_frequency": {},
+                "other_metadata/general_annotation/product_information/azimuth_steering_rate": {},
+                "other_metadata/general_annotation/downlink_information_list": {},
+                "other_metadata/general_annotation/orbit_list": {},
+                "other_metadata/general_annotation/attitude_list": {},
+                "other_metadata/general_annotation/raw_data_analysis_list": {},
+                "other_metadata/general_annotation/replica_information_list": {},
+                "other_metadata/general_annotation/noise_list": {},
+                "other_metadata/general_annotation/terrain_height_list": {},
+                "other_metadata/general_annotation/azimuth_fm_rate_list": {},
+                "other_metadata/image_annotation/image_information/product_first_line_utc_time": {},
+                "other_metadata/image_annotation/image_information/product_last_line_utc_time": {},
+                "other_metadata/image_annotation/image_information/ascending_node_time": {},
+                "other_metadata/image_annotation/image_information/anchor_time": {},
+                "other_metadata/image_annotation/image_information/product_composition": {},
+                "other_metadata/image_annotation/image_information/slice_number": {},
+                "other_metadata/image_annotation/image_information/slice_list": {},
+                "other_metadata/image_annotation/image_information/slant_range_time": {},
+                "other_metadata/image_annotation/image_information/pixel_value": {},
+                "other_metadata/image_annotation/image_information/output_pixels": {},
+                "other_metadata/image_annotation/image_information/range_pixel_spacing": {},
+                "other_metadata/image_annotation/image_information/azimuth_pixel_spacing": {},
+                "other_metadata/image_annotation/image_information/azimuth_time_interval": {},
+                "other_metadata/image_annotation/image_information/azimuth_frequency": {},
+                "other_metadata/image_annotation/image_information/number_of_samples": {},
+                "other_metadata/image_annotation/image_information/number_of_lines": {},
+                "other_metadata/image_annotation/image_information/zero_dop_minus_acq_time": {},
+                "other_metadata/image_annotation/image_information/incidence_angle_mid_swath": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_mean/re": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_mean/im": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_std_dev/re": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_std_dev/im": {},
+                "other_metadata/image_annotation/processing_information/raw_data_analysis_used": {},
+                "other_metadata/image_annotation/processing_information/orbit_data_file_used": {},
+                "other_metadata/image_annotation/processing_information/attitude_data_file_used": {},
+                "other_metadata/image_annotation/processing_information/rx_variation_correction_applied": {},
+                "other_metadata/image_annotation/processing_information/antenna_elevation_pattern_applied": {},
+                "other_metadata/image_annotation/processing_information/antenna_azimuth_pattern_applied": {},
+                "other_metadata/image_annotation/processing_information/antenna_azimuth_element_pattern_applied": {},
+                "other_metadata/image_annotation/processing_information/dc_method": {},
+                "other_metadata/image_annotation/processing_information/dc_input_data": {},
+                "other_metadata/image_annotation/processing_information/range_spreading_loss_compensation_applied": {},
+                "other_metadata/image_annotation/processing_information/srgr_conversion_applied": {},
+                "other_metadata/image_annotation/processing_information/detection_performed": {},
+                "other_metadata/image_annotation/processing_information/thermal_noise_correction_performed": {},
+                "other_metadata/image_annotation/processing_information/rfi_mitigation_performed": {},
+                "other_metadata/image_annotation/processing_information/rfi_mitigation_domain": {},
+                "other_metadata/image_annotation/processing_information/chirp_source": {},
+                "other_metadata/image_annotation/processing_information/pg_source": {},
+                "other_metadata/image_annotation/processing_information/rrf_spectrum": {},
+                "other_metadata/image_annotation/processing_information/application_lut_id": {},
+                "other_metadata/image_annotation/processing_information/swath_proc_params_list": {},
+                "other_metadata/image_annotation/processing_information/input_dimensions_list": {},
+                "other_metadata/image_annotation/processing_information/reference_range": {},
+                "other_metadata/image_annotation/processing_information/ellipsoid_name": {},
+                "other_metadata/image_annotation/processing_information/ellipsoid_semi_major_axis": {},
+                "other_metadata/image_annotation/processing_information/ellipsoid_semi_minor_axis": {},
+                "other_metadata/image_annotation/processing_information/bistatic_delay_correction_applied": {},
+                "other_metadata/image_annotation/processing_information/tops_filter_convention": {},
+                "other_metadata/image_annotation/processing_information/orbit_source": {},
+                "other_metadata/image_annotation/processing_information/attitude_source": {},
+                "other_metadata/swath_timing/lines_per_burst": {},
+                "other_metadata/swath_timing/samples_per_burst": {},
+                "processing_history": {
+                    "required": false,
+                    "dont_look_under": true
+                },
+                "stac_discovery/properties/processing:software": {
+                    "required": false,
+                    "dont_look_under": true
+                }
+            }
+        },
+        "S01SS6SLC_20240923T195131_0019_A319_E690_06D144_VV": {
+            "product_type_regex": "S01SSMSLC",
+            "variables": {
+                "/measurements/slc": {
+                    "dtype": "complex64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/data_dc_polynomial": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "degree"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/data_dc_rms_error": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/data_dc_rms_error_above_threshold": {
+                    "dtype": "bool",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/fine_dce_azimuth_start_time": {
+                    "dtype": "bool",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/fine_dce_azimuth_stop_time": {
+                    "dtype": "bool",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/geometry_dc_polynomial": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "degree"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/doppler_centroid/t0": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/azimuth_time_gcp": {
+                    "dtype": "datetime64[ns]",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/slant_range_time_gcp": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/elevation_angle": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/height": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/incidence_angle": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/latitude": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/gcp/longitude": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/pitch": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q0": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q1": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q2": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/q3": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/roll": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/wx": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/wy": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/wz": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/attitude/yaw": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/orbit/position": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "axis"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/orbit/velocity": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "axis"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/swath": {
+                    "dtype": "<U3",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/slant_range_time_ap": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time",
+                        "count"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/elevation_angle": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "count"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/incidence_angle": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "count"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/roll": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/conditions/antenna_pattern/terrain_height": {
+                    "dtype": "float64",
+                    "dims": [
+                        "azimuth_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "units": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/noise_range/noise_range_lut": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/dn": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/gamma": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/sigma_nought": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                },
+                "/quality/calibration/beta_nought": {
+                    "dtype": "float32",
+                    "dims": [
+                        "azimuth_time",
+                        "slant_range_time"
+                    ],
+                    "attrs": {
+                        "long_name": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dtype": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "dimensions": {
+                            "required": false,
+                            "dont_look_under": false
+                        },
+                        "coordinates": {
+                            "required": false,
+                            "dont_look_under": false
+                        }
+                    }
+                }
+            },
+            "attrs": {
+                "stac_discovery/type": {},
+                "stac_discovery/stac_version": {},
+                "stac_discovery/stac_extensions": {},
+                "stac_discovery/id": {},
+                "stac_discovery/geometry/type": {},
+                "stac_discovery/geometry/coordinates": {},
+                "stac_discovery/bbox": {},
+                "stac_discovery/properties/sar:pixel_spacing_range": {},
+                "stac_discovery/properties/sar:pixel_spacing_azimuth": {},
+                "stac_discovery/properties/view:incidence_angle": {},
+                "stac_discovery/properties/sar:center_frequency": {},
+                "stac_discovery/properties/sar:polarization": {},
+                "stac_discovery/properties/datetime": {},
+                "stac_discovery/properties/start_datetime": {},
+                "stac_discovery/properties/end_datetime": {},
+                "stac_discovery/properties/created": {},
+                "stac_discovery/properties/platform": {},
+                "stac_discovery/properties/instruments": {},
+                "stac_discovery/properties/provider": {},
+                "stac_discovery/properties/constellation": {},
+                "stac_discovery/properties/product:type": {},
+                "stac_discovery/properties/product:timeliness_category": {},
+                "stac_discovery/properties/product:timeliness": {},
+                "stac_discovery/properties/processing:lineage": {},
+                "stac_discovery/properties/eopf:datatake_id": {},
+                "stac_discovery/properties/eopf:instrument_mode": {},
+                "stac_discovery/properties/sat:platform_international_designator": {},
+                "stac_discovery/properties/sat:absolute_orbit": {},
+                "stac_discovery/properties/sat:relative_orbit": {},
+                "stac_discovery/properties/sat:orbit_state": {},
+                "stac_discovery/properties/sat:anx_datetime": {},
+                "stac_discovery/properties/sar:instrument_mode": {},
+                "stac_discovery/properties/sar:frequency_band": {},
+                "stac_discovery/properties/sar:beam_ids": {},
+                "stac_discovery/properties/processing:version": {},
+                "stac_discovery/links": {},
+                "stac_discovery/detectionPerformed": {},
+                "stac_discovery/thermalNoiseCorrectionPerformed": {},
+                "other_metadata/eopf_category": {},
+                "other_metadata/title": {},
+                "other_metadata/image_number": {},
+                "other_metadata/timeliness_category": {},
+                "other_metadata/projection": {},
+                "other_metadata/range_sampling_rate": {},
+                "other_metadata/processing_information/processor_scaling_factor": {},
+                "other_metadata/processing_information/range_processing/window_type": {},
+                "other_metadata/processing_information/range_processing/window_coefficient": {},
+                "other_metadata/processing_information/range_processing/total_bandwidth": {},
+                "other_metadata/processing_information/range_processing/processing_bandwidth": {},
+                "other_metadata/processing_information/range_processing/look_bandwidth": {},
+                "other_metadata/processing_information/range_processing/number_of_looks": {},
+                "other_metadata/processing_information/range_processing/look_overlap": {},
+                "other_metadata/processing_information/azimuth_processing/window_type": {},
+                "other_metadata/processing_information/azimuth_processing/window_coefficient": {},
+                "other_metadata/processing_information/azimuth_processing/total_bandwidth": {},
+                "other_metadata/processing_information/azimuth_processing/processing_bandwidth": {},
+                "other_metadata/processing_information/azimuth_processing/look_bandwidth": {},
+                "other_metadata/processing_information/azimuth_processing/number_of_looks": {},
+                "other_metadata/processing_information/azimuth_processing/look_overlap": {},
+                "other_metadata/processing_information/input_dimensions/azimuth_time": {},
+                "other_metadata/processing_information/input_dimensions/number_of_input_samples": {},
+                "other_metadata/processing_information/input_dimensions/number_of_input_lines": {},
+                "other_metadata/quality_information/product_quality_index": {},
+                "other_metadata/quality_information/quality_data_list": {},
+                "other_metadata/general_annotation/product_information/pass": {},
+                "other_metadata/general_annotation/product_information/timeliness_category": {},
+                "other_metadata/general_annotation/product_information/platform_heading": {},
+                "other_metadata/general_annotation/product_information/projection": {},
+                "other_metadata/general_annotation/product_information/range_sampling_rate": {},
+                "other_metadata/general_annotation/product_information/radar_frequency": {},
+                "other_metadata/general_annotation/product_information/azimuth_steering_rate": {},
+                "other_metadata/general_annotation/downlink_information_list": {},
+                "other_metadata/general_annotation/orbit_list": {},
+                "other_metadata/general_annotation/attitude_list": {},
+                "other_metadata/general_annotation/raw_data_analysis_list": {},
+                "other_metadata/general_annotation/replica_information_list": {},
+                "other_metadata/general_annotation/noise_list": {},
+                "other_metadata/general_annotation/terrain_height_list": {},
+                "other_metadata/general_annotation/azimuth_fm_rate_list": {},
+                "other_metadata/image_annotation/image_information/product_first_line_utc_time": {},
+                "other_metadata/image_annotation/image_information/product_last_line_utc_time": {},
+                "other_metadata/image_annotation/image_information/ascending_node_time": {},
+                "other_metadata/image_annotation/image_information/anchor_time": {},
+                "other_metadata/image_annotation/image_information/product_composition": {},
+                "other_metadata/image_annotation/image_information/slice_number": {},
+                "other_metadata/image_annotation/image_information/slice_list": {},
+                "other_metadata/image_annotation/image_information/slant_range_time": {},
+                "other_metadata/image_annotation/image_information/pixel_value": {},
+                "other_metadata/image_annotation/image_information/output_pixels": {},
+                "other_metadata/image_annotation/image_information/range_pixel_spacing": {},
+                "other_metadata/image_annotation/image_information/azimuth_pixel_spacing": {},
+                "other_metadata/image_annotation/image_information/azimuth_time_interval": {},
+                "other_metadata/image_annotation/image_information/azimuth_frequency": {},
+                "other_metadata/image_annotation/image_information/number_of_samples": {},
+                "other_metadata/image_annotation/image_information/number_of_lines": {},
+                "other_metadata/image_annotation/image_information/zero_dop_minus_acq_time": {},
+                "other_metadata/image_annotation/image_information/incidence_angle_mid_swath": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_mean/re": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_mean/im": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_std_dev/re": {},
+                "other_metadata/image_annotation/image_information/image_statistics/output_data_std_dev/im": {},
+                "other_metadata/image_annotation/processing_information/raw_data_analysis_used": {},
+                "other_metadata/image_annotation/processing_information/orbit_data_file_used": {},
+                "other_metadata/image_annotation/processing_information/attitude_data_file_used": {},
+                "other_metadata/image_annotation/processing_information/rx_variation_correction_applied": {},
+                "other_metadata/image_annotation/processing_information/antenna_elevation_pattern_applied": {},
+                "other_metadata/image_annotation/processing_information/antenna_azimuth_pattern_applied": {},
+                "other_metadata/image_annotation/processing_information/antenna_azimuth_element_pattern_applied": {},
+                "other_metadata/image_annotation/processing_information/dc_method": {},
+                "other_metadata/image_annotation/processing_information/dc_input_data": {},
+                "other_metadata/image_annotation/processing_information/range_spreading_loss_compensation_applied": {},
+                "other_metadata/image_annotation/processing_information/srgr_conversion_applied": {},
+                "other_metadata/image_annotation/processing_information/detection_performed": {},
+                "other_metadata/image_annotation/processing_information/thermal_noise_correction_performed": {},
+                "other_metadata/image_annotation/processing_information/rfi_mitigation_performed": {},
+                "other_metadata/image_annotation/processing_information/rfi_mitigation_domain": {},
+                "other_metadata/image_annotation/processing_information/chirp_source": {},
+                "other_metadata/image_annotation/processing_information/pg_source": {},
+                "other_metadata/image_annotation/processing_information/rrf_spectrum": {},
+                "other_metadata/image_annotation/processing_information/application_lut_id": {},
+                "other_metadata/image_annotation/processing_information/swath_proc_params_list": {},
+                "other_metadata/image_annotation/processing_information/input_dimensions_list": {},
+                "other_metadata/image_annotation/processing_information/reference_range": {},
+                "other_metadata/image_annotation/processing_information/ellipsoid_name": {},
+                "other_metadata/image_annotation/processing_information/ellipsoid_semi_major_axis": {},
+                "other_metadata/image_annotation/processing_information/ellipsoid_semi_minor_axis": {},
+                "other_metadata/image_annotation/processing_information/bistatic_delay_correction_applied": {},
+                "other_metadata/image_annotation/processing_information/tops_filter_convention": {},
+                "other_metadata/image_annotation/processing_information/orbit_source": {},
+                "other_metadata/image_annotation/processing_information/attitude_source": {},
+                "other_metadata/swath_timing/lines_per_burst": {},
+                "other_metadata/swath_timing/samples_per_burst": {},
+                "processing_history": {
+                    "required": false,
+                    "dont_look_under": true
+                },
+                "stac_discovery/properties/processing:software": {
+                    "required": false,
+                    "dont_look_under": true
+                }
+            }
+        }
+    },
+    "sub_containers": {},
+    "attrs": {
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/id": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/provider": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/sat:platform_international_designator": {},
+        "stac_discovery/properties/eopf:datatake_id": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/properties/sat:anx_datetime": {},
+        "stac_discovery/properties/sar:instrument_mode": {},
+        "stac_discovery/properties/sar:frequency_band": {},
+        "stac_discovery/properties/sar:polarizations": {},
+        "stac_discovery/properties/sar:beam_ids": {},
+        "stac_discovery/links": {},
+        "stac_discovery/assets/S01SS6SLC_20240923T195131_0019_A319_E690_06D144_VH/href": {},
+        "stac_discovery/assets/S01SS6SLC_20240923T195131_0019_A319_E690_06D144_VV/href": {},
+        "other_metadata/eopf_category": {},
+        "other_metadata/title": {},
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}

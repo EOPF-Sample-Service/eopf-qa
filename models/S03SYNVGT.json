@@ -1,0 +1,1120 @@
+{
+    "product_type_regex": "S03SYNVGT",
+    "variables": {
+        "/measurements/b0": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/lat_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/lon_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "longitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/b2": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/b3": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/mir": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/ag": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/lat_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/lon_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "longitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/og": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/wvg": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/saa": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/sza": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/vaa": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/lat_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/lon_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "longitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/vza": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/status_flags": {
+            "dtype": "uint16",
+            "dims": [
+                "latitude",
+                "longitude"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/lat_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "latitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/lon_bnds": {
+            "dtype": "float64",
+            "dims": [
+                "longitude",
+                "vertices"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        }
+    },
+    "attrs": {
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/id": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/collection": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/providers": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/eopf:instrument_mode": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/proj:shape": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:orbit_cycle": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/properties/sat:platform_international_designator": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/processing:facility": {},
+        "stac_discovery/properties/processing:level": {},
+        "stac_discovery/properties/mission": {},
+        "stac_discovery/properties/processing:version": {},
+        "stac_discovery/links": {},
+        "stac_discovery/assets/b0/href": {},
+        "stac_discovery/assets/b0/title": {},
+        "stac_discovery/assets/lat_bnds/href": {},
+        "stac_discovery/assets/lat_bnds/title": {},
+        "stac_discovery/assets/lon_bnds/href": {},
+        "stac_discovery/assets/lon_bnds/title": {},
+        "stac_discovery/assets/b2/href": {},
+        "stac_discovery/assets/b2/title": {},
+        "stac_discovery/assets/b3/href": {},
+        "stac_discovery/assets/b3/title": {},
+        "stac_discovery/assets/mir/href": {},
+        "stac_discovery/assets/mir/title": {},
+        "stac_discovery/assets/ag/href": {},
+        "stac_discovery/assets/ag/title": {},
+        "stac_discovery/assets/og/href": {},
+        "stac_discovery/assets/og/title": {},
+        "stac_discovery/assets/saa/href": {},
+        "stac_discovery/assets/saa/title": {},
+        "stac_discovery/assets/status_flags/href": {},
+        "stac_discovery/assets/status_flags/title": {},
+        "stac_discovery/assets/sza/href": {},
+        "stac_discovery/assets/sza/title": {},
+        "stac_discovery/assets/vaa/href": {},
+        "stac_discovery/assets/vaa/title": {},
+        "stac_discovery/assets/vza/href": {},
+        "stac_discovery/assets/vza/title": {},
+        "stac_discovery/assets/wvg/href": {},
+        "stac_discovery/assets/wvg/title": {},
+        "other_metadata/eopf_category": {},
+        "other_metadata/absolute_pass_number": {},
+        "other_metadata/relative_pass_number": {},
+        "other_metadata/phase_identifier": {},
+        "other_metadata/ephemeris/start/TAI": {},
+        "other_metadata/ephemeris/start/UTC": {},
+        "other_metadata/ephemeris/start/UT1": {},
+        "other_metadata/ephemeris/start/position/x": {},
+        "other_metadata/ephemeris/start/position/y": {},
+        "other_metadata/ephemeris/start/position/z": {},
+        "other_metadata/ephemeris/start/velocity/x": {},
+        "other_metadata/ephemeris/start/velocity/y": {},
+        "other_metadata/ephemeris/start/velocity/z": {},
+        "other_metadata/ephemeris/stop/TAI": {},
+        "other_metadata/ephemeris/stop/UTC": {},
+        "other_metadata/ephemeris/stop/UT1": {},
+        "other_metadata/ephemeris/stop/position/x": {},
+        "other_metadata/ephemeris/stop/position/y": {},
+        "other_metadata/ephemeris/stop/position/z": {},
+        "other_metadata/ephemeris/stop/velocity/x": {},
+        "other_metadata/ephemeris/stop/velocity/y": {},
+        "other_metadata/ephemeris/stop/velocity/z": {},
+        "other_metadata/product_unit/type": {},
+        "other_metadata/product_unit/duration": {},
+        "other_metadata/product_unit/alongtrack_coordinate": {},
+        "processing_history": {
+            "required": false,
+            "dont_look_under": true
+        },
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}

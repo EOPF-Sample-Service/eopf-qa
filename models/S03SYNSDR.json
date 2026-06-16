@@ -1,0 +1,4184 @@
+{
+    "product_type_regex": "S03SYNSDR",
+    "variables": {
+        "/conditions/geometry/olci/saa": {
+            "dtype": "float64",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/olci/sza": {
+            "dtype": "float64",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/olci/vaa": {
+            "dtype": "float64",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/olci/vza": {
+            "dtype": "float64",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/slstr/nadir/vaa": {
+            "dtype": "float32",
+            "dims": [
+                "slstr_nadir_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/slstr/nadir/vza": {
+            "dtype": "float32",
+            "dims": [
+                "slstr_nadir_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/slstr/oblique/vaa": {
+            "dtype": "float32",
+            "dims": [
+                "slstr_oblique_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/slstr/oblique/vza": {
+            "dtype": "float32",
+            "dims": [
+                "slstr_oblique_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/air_pressure": {
+            "dtype": "float32",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/ozone": {
+            "dtype": "float32",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/water_vapour": {
+            "dtype": "float32",
+            "dims": [
+                "olci_tp"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time": {
+            "dtype": "int64",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa01": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa02": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa03": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa04": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa05": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa06": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa07": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa08": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa09": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa10": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa11": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa12": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa16": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa17": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa18": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/olci/sdr_oa21": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/nadir/sdr_s1": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/nadir/sdr_s2": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/nadir/sdr_s3": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/nadir/sdr_s5": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/nadir/sdr_s6": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/oblique/sdr_s1": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/oblique/sdr_s2": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/oblique/sdr_s3": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/oblique/sdr_s5": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/slstr/oblique/sdr_s6": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/aerosol/amin": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/aerosol/aae550": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/aerosol/aot550": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/flags/cloud_flags": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/flags/olci_flags": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/flags/slstr_nadir_flags": {
+            "dtype": "uint32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/flags/slstr_oblique_flags": {
+            "dtype": "uint32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/flags/synergy_flags": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa01_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa02_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa03_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa04_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa05_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa06_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa07_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa08_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa09_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa10_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa11_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa12_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa16_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa17_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa18_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/olci/sdr_oa21_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/nadir/sdr_s1_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/nadir/sdr_s2_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/nadir/sdr_s3_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/nadir/sdr_s5_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/nadir/sdr_s6_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/oblique/sdr_s1_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/oblique/sdr_s2_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/oblique/sdr_s3_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/oblique/sdr_s5_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/slstr/oblique/sdr_s6_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/uncertainties/aerosol/aot550_unc": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        }
+    },
+    "attrs": {
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/id": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/collection": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/gsd": {},
+        "stac_discovery/properties/providers": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/product:acquisition_type": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:orbit_cycle": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/properties/sat:platform_international_designator": {},
+        "stac_discovery/properties/processing:level": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/processing:version": {},
+        "stac_discovery/properties/processing:datetime": {},
+        "stac_discovery/properties/proj:shape": {},
+        "stac_discovery/properties/classification:classes": {},
+        "stac_discovery/properties/eo:bands": {},
+        "stac_discovery/properties/mission": {},
+        "stac_discovery/assets/time/href": {},
+        "stac_discovery/assets/time/title": {},
+        "stac_discovery/assets/sdr_oa01/href": {},
+        "stac_discovery/assets/sdr_oa01/title": {},
+        "stac_discovery/assets/sdr_oa02/href": {},
+        "stac_discovery/assets/sdr_oa02/title": {},
+        "stac_discovery/assets/sdr_oa03/href": {},
+        "stac_discovery/assets/sdr_oa03/title": {},
+        "stac_discovery/assets/sdr_oa04/href": {},
+        "stac_discovery/assets/sdr_oa04/title": {},
+        "stac_discovery/assets/sdr_oa05/href": {},
+        "stac_discovery/assets/sdr_oa05/title": {},
+        "stac_discovery/assets/sdr_oa06/href": {},
+        "stac_discovery/assets/sdr_oa06/title": {},
+        "stac_discovery/assets/sdr_oa07/href": {},
+        "stac_discovery/assets/sdr_oa07/title": {},
+        "stac_discovery/assets/sdr_oa08/href": {},
+        "stac_discovery/assets/sdr_oa08/title": {},
+        "stac_discovery/assets/sdr_oa09/href": {},
+        "stac_discovery/assets/sdr_oa09/title": {},
+        "stac_discovery/assets/sdr_oa10/href": {},
+        "stac_discovery/assets/sdr_oa10/title": {},
+        "stac_discovery/assets/sdr_oa11/href": {},
+        "stac_discovery/assets/sdr_oa11/title": {},
+        "stac_discovery/assets/sdr_oa12/href": {},
+        "stac_discovery/assets/sdr_oa12/title": {},
+        "stac_discovery/assets/sdr_oa16/href": {},
+        "stac_discovery/assets/sdr_oa16/title": {},
+        "stac_discovery/assets/sdr_oa17/href": {},
+        "stac_discovery/assets/sdr_oa17/title": {},
+        "stac_discovery/assets/sdr_oa18/href": {},
+        "stac_discovery/assets/sdr_oa18/title": {},
+        "stac_discovery/assets/sdr_oa21/href": {},
+        "stac_discovery/assets/sdr_oa21/title": {},
+        "stac_discovery/assets/sdr_s1_nadir/href": {},
+        "stac_discovery/assets/sdr_s1_nadir/title": {},
+        "stac_discovery/assets/sdr_s2_nadir/href": {},
+        "stac_discovery/assets/sdr_s2_nadir/title": {},
+        "stac_discovery/assets/sdr_s3_nadir/href": {},
+        "stac_discovery/assets/sdr_s3_nadir/title": {},
+        "stac_discovery/assets/sdr_s5_nadir/href": {},
+        "stac_discovery/assets/sdr_s5_nadir/title": {},
+        "stac_discovery/assets/sdr_s6_nadir/href": {},
+        "stac_discovery/assets/sdr_s6_nadir/title": {},
+        "stac_discovery/assets/sdr_s1_oblique/href": {},
+        "stac_discovery/assets/sdr_s1_oblique/title": {},
+        "stac_discovery/assets/sdr_s2_oblique/href": {},
+        "stac_discovery/assets/sdr_s2_oblique/title": {},
+        "stac_discovery/assets/sdr_s3_oblique/href": {},
+        "stac_discovery/assets/sdr_s3_oblique/title": {},
+        "stac_discovery/assets/sdr_s5_oblique/href": {},
+        "stac_discovery/assets/sdr_s5_oblique/title": {},
+        "stac_discovery/assets/sdr_s6_oblique/href": {},
+        "stac_discovery/assets/sdr_s6_oblique/title": {},
+        "stac_discovery/assets/amin/href": {},
+        "stac_discovery/assets/amin/title": {},
+        "stac_discovery/assets/aae550/href": {},
+        "stac_discovery/assets/aae550/title": {},
+        "stac_discovery/assets/aot550/href": {},
+        "stac_discovery/assets/aot550/title": {},
+        "stac_discovery/assets/cloud_flags/href": {},
+        "stac_discovery/assets/cloud_flags/title": {},
+        "stac_discovery/assets/olci_flags/href": {},
+        "stac_discovery/assets/olci_flags/title": {},
+        "stac_discovery/assets/slstr_n_flags/href": {},
+        "stac_discovery/assets/slstr_n_flags/title": {},
+        "stac_discovery/assets/slstr_o_flags/href": {},
+        "stac_discovery/assets/slstr_o_flags/title": {},
+        "stac_discovery/assets/syn_flags/href": {},
+        "stac_discovery/assets/syn_flags/title": {},
+        "stac_discovery/assets/sdr_oa01_unc/href": {},
+        "stac_discovery/assets/sdr_oa01_unc/title": {},
+        "stac_discovery/assets/sdr_oa02_unc/href": {},
+        "stac_discovery/assets/sdr_oa02_unc/title": {},
+        "stac_discovery/assets/sdr_oa03_unc/href": {},
+        "stac_discovery/assets/sdr_oa03_unc/title": {},
+        "stac_discovery/assets/sdr_oa04_unc/href": {},
+        "stac_discovery/assets/sdr_oa04_unc/title": {},
+        "stac_discovery/assets/sdr_oa05_unc/href": {},
+        "stac_discovery/assets/sdr_oa05_unc/title": {},
+        "stac_discovery/assets/sdr_oa06_unc/href": {},
+        "stac_discovery/assets/sdr_oa06_unc/title": {},
+        "stac_discovery/assets/sdr_oa07_unc/href": {},
+        "stac_discovery/assets/sdr_oa07_unc/title": {},
+        "stac_discovery/assets/sdr_oa08_unc/href": {},
+        "stac_discovery/assets/sdr_oa08_unc/title": {},
+        "stac_discovery/assets/sdr_oa09_unc/href": {},
+        "stac_discovery/assets/sdr_oa09_unc/title": {},
+        "stac_discovery/assets/sdr_oa10_unc/href": {},
+        "stac_discovery/assets/sdr_oa10_unc/title": {},
+        "stac_discovery/assets/sdr_oa11_unc/href": {},
+        "stac_discovery/assets/sdr_oa11_unc/title": {},
+        "stac_discovery/assets/sdr_oa12_unc/href": {},
+        "stac_discovery/assets/sdr_oa12_unc/title": {},
+        "stac_discovery/assets/sdr_oa16_unc/href": {},
+        "stac_discovery/assets/sdr_oa16_unc/title": {},
+        "stac_discovery/assets/sdr_oa17_unc/href": {},
+        "stac_discovery/assets/sdr_oa17_unc/title": {},
+        "stac_discovery/assets/sdr_oa18_unc/href": {},
+        "stac_discovery/assets/sdr_oa18_unc/title": {},
+        "stac_discovery/assets/sdr_oa21_unc/href": {},
+        "stac_discovery/assets/sdr_oa21_unc/title": {},
+        "stac_discovery/assets/sdr_s1n_unc/href": {},
+        "stac_discovery/assets/sdr_s1n_unc/title": {},
+        "stac_discovery/assets/sdr_s1o_unc/href": {},
+        "stac_discovery/assets/sdr_s1o_unc/title": {},
+        "stac_discovery/assets/sdr_s2n_unc/href": {},
+        "stac_discovery/assets/sdr_s2n_unc/title": {},
+        "stac_discovery/assets/sdr_s2o_unc/href": {},
+        "stac_discovery/assets/sdr_s2o_unc/title": {},
+        "stac_discovery/assets/sdr_s3n_unc/href": {},
+        "stac_discovery/assets/sdr_s3n_unc/title": {},
+        "stac_discovery/assets/sdr_s3o_unc/href": {},
+        "stac_discovery/assets/sdr_s3o_unc/title": {},
+        "stac_discovery/assets/sdr_s5n_unc/href": {},
+        "stac_discovery/assets/sdr_s5n_unc/title": {},
+        "stac_discovery/assets/sdr_s5o_unc/href": {},
+        "stac_discovery/assets/sdr_s5o_unc/title": {},
+        "stac_discovery/assets/sdr_s6n_unc/href": {},
+        "stac_discovery/assets/sdr_s6n_unc/title": {},
+        "stac_discovery/assets/sdr_s6o_unc/href": {},
+        "stac_discovery/assets/sdr_s6o_unc/title": {},
+        "stac_discovery/assets/aot550_unc/href": {},
+        "stac_discovery/assets/aot550_unc/title": {},
+        "stac_discovery/assets/saa_olci/href": {},
+        "stac_discovery/assets/saa_olci/title": {},
+        "stac_discovery/assets/sza_olci/href": {},
+        "stac_discovery/assets/sza_olci/title": {},
+        "stac_discovery/assets/vaa_olci/href": {},
+        "stac_discovery/assets/vaa_olci/title": {},
+        "stac_discovery/assets/vza_olci/href": {},
+        "stac_discovery/assets/vza_olci/title": {},
+        "stac_discovery/assets/vaa_slstr_n/href": {},
+        "stac_discovery/assets/vaa_slstr_n/title": {},
+        "stac_discovery/assets/vza_slstr_n/href": {},
+        "stac_discovery/assets/vza_slstr_n/title": {},
+        "stac_discovery/assets/vaa_slstr_o/href": {},
+        "stac_discovery/assets/vaa_slstr_o/title": {},
+        "stac_discovery/assets/vza_slstr_o/href": {},
+        "stac_discovery/assets/vza_slstr_o/title": {},
+        "stac_discovery/assets/air_pressure/href": {},
+        "stac_discovery/assets/air_pressure/title": {},
+        "stac_discovery/assets/ozone/href": {},
+        "stac_discovery/assets/ozone/title": {},
+        "stac_discovery/assets/water_vapour/href": {},
+        "stac_discovery/assets/water_vapour/title": {},
+        "other_metadata/eopf_category": {},
+        "other_metadata/absolute_pass_number": {},
+        "other_metadata/relative_pass_number": {},
+        "other_metadata/phase_identifier": {},
+        "other_metadata/ephemeris/start/TAI": {},
+        "other_metadata/ephemeris/start/UTC": {},
+        "other_metadata/ephemeris/start/UT1": {},
+        "other_metadata/ephemeris/start/position/x": {},
+        "other_metadata/ephemeris/start/position/y": {},
+        "other_metadata/ephemeris/start/position/z": {},
+        "other_metadata/ephemeris/start/velocity/x": {},
+        "other_metadata/ephemeris/start/velocity/y": {},
+        "other_metadata/ephemeris/start/velocity/z": {},
+        "other_metadata/ephemeris/stop/TAI": {},
+        "other_metadata/ephemeris/stop/UTC": {},
+        "other_metadata/ephemeris/stop/UT1": {},
+        "other_metadata/ephemeris/stop/position/x": {},
+        "other_metadata/ephemeris/stop/position/y": {},
+        "other_metadata/ephemeris/stop/position/z": {},
+        "other_metadata/ephemeris/stop/velocity/x": {},
+        "other_metadata/ephemeris/stop/velocity/y": {},
+        "other_metadata/ephemeris/stop/velocity/z": {},
+        "other_metadata/product_unit/type": {},
+        "other_metadata/product_unit/duration": {},
+        "other_metadata/product_unit/alongtrack_coordinate": {},
+        "other_metadata/meteo/source": {},
+        "other_metadata/meteo/type": {},
+        "other_metadata/meteo/missing_time": {},
+        "processing_history": {
+            "required": false,
+            "dont_look_under": true
+        },
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}
