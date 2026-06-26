@@ -189,7 +189,7 @@ def validateZarrModel(node: dict, model = {}, out_anomalies: List[AnomalyDescrip
 def validateEopfZarr(product: dict, model = {}, out_anomalies: List[AnomalyDescriptor] = None, logger = None) -> None:
     # check that the product and model have the same product type
     product_type = product.get('product_type_regex', product.get('container_type_regex', ".*"))
-    print(f"product_type = {product_type }") 
+    ##print(f"product_type = {product_type }") 
     if product_type != ".*":
         model_type_regex = model.get('product_type_regex', model.get('container_type_regex', ".*"))
         if product_type == None:
@@ -208,7 +208,7 @@ def validateEopfZarr(product: dict, model = {}, out_anomalies: List[AnomalyDescr
             for sub_product_name in product['sub_products'].keys():
                 ##print(f"product sub_product name = {sub_product_name}")
                 p = product.get('sub_products').get(sub_product_name)
-                print(f"product sub_product type = {type(p).__name__}")
+                ##print(f"product sub_product type = {type(p).__name__}")
                 ## use best sub_product_name match
                 ##print(f"model sub_product names = {model.get('sub_products').keys()}")
                 keys = model.get('sub_products').keys()
@@ -219,15 +219,15 @@ def validateEopfZarr(product: dict, model = {}, out_anomalies: List[AnomalyDescr
                 ##print(f"model sub_product name best match = {best_match}")
                 m = model.get('sub_products').get(best_match)
                 ##print(f"model sub_product type = {type(m).__name__}")
-                print(f"... validating sub_product {sub_product_name}")
-                print(f"...             with model {best_match}")
+                ##print(f"... validating sub_product {sub_product_name}")
+                ##print(f"...             with model {best_match}")
                 validateZarrModel(p, m, anomalies, logger) # TODO
                 i += 1
         else:
             msg = f"Product with container does not match model"
             append_to_anomalies(out_anomalies, "MODEL", msg, logger)
     elif 'sub_products' not in model.keys():
-        print("product has no sub_products") 
+        ##print("product has no sub_products") 
         validateZarrModel(product['variables'], model['variables'], anomalies, logger) # TODO
     else:
         msg = f"Product does not match model container structure"

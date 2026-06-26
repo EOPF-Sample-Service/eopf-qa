@@ -1,0 +1,1009 @@
+{
+  "attrs": {},
+  "product_type_regex": "S02MSIL1C",
+  "variables": {
+    "/conditions/geometry/mean_sun_angles": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "angle"
+      ],
+      "dtype": "float64"
+    },
+    "/conditions/geometry/mean_viewing_incidence_angles": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "band",
+        "angle"
+      ],
+      "dtype": "float64"
+    },
+    "/conditions/geometry/sun_angles": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "angle",
+        "y",
+        "x"
+      ],
+      "dtype": "float64"
+    },
+    "/conditions/geometry/viewing_incidence_angles": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "band",
+        "detector",
+        "angle",
+        "y",
+        "x"
+      ],
+      "dtype": "float64"
+    },
+    "/conditions/mask/detector_footprint/r10m/b02": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r10m/b03": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r10m/b04": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r10m/b08": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r20m/b05": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r20m/b06": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r20m/b07": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r20m/b11": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r20m/b12": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r20m/b8a": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r60m/b01": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r60m/b09": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/detector_footprint/r60m/b10": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_meanings": {},
+        "flag_values": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/mask/l1c_classification/r60m/b00": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/conditions/meteorology/cams/aod1240": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/aod469": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/aod550": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/aod670": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/aod865": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/bcaod550": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/duaod550": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/omaod550": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/ssaod550": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/suaod550": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/cams/z": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/ecmwf/msl": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "standard_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/ecmwf/r": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/ecmwf/tco3": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "standard_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/ecmwf/tcwv": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "standard_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/ecmwf/u10": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/conditions/meteorology/ecmwf/v10": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "long_name": {},
+        "short_name": {},
+        "units": {}
+      },
+      "dims": [
+        "latitude",
+        "longitude"
+      ],
+      "dtype": "float32"
+    },
+    "/measurements/reflectance/r10m/b02": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r10m/b03": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r10m/b04": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r10m/b08": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r20m/b05": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r20m/b06": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r20m/b07": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r20m/b11": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r20m/b12": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r20m/b8a": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r60m/b01": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r60m/b09": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/measurements/reflectance/r60m/b10": {
+      "attrs": {
+        "add_offset": {},
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "fill_value": {},
+        "long_name": {},
+        "scale_factor": {},
+        "short_name": {},
+        "units": {},
+        "valid_max": {},
+        "valid_min": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint16"
+    },
+    "/quality/mask/r10m/b02": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r10m/b03": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r10m/b04": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r10m/b08": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r20m/b05": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r20m/b06": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r20m/b07": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r20m/b11": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r20m/b12": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r20m/b8a": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r60m/b01": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r60m/b09": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    },
+    "/quality/mask/r60m/b10": {
+      "attrs": {
+        "coordinates": {},
+        "dimensions": {},
+        "dtype": {},
+        "flag_masks": {},
+        "flag_meanings": {},
+        "long_name": {},
+        "short_name": {}
+      },
+      "dims": [
+        "y",
+        "x"
+      ],
+      "dtype": "uint8"
+    }
+  }
+}
