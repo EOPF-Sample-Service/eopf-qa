@@ -2,20 +2,23 @@
 #
 import argparse
 import json
+import pathlib
 import re
 import zarr
 from dataclasses import dataclass
+from difflib import SequenceMatcher
 from logging import Logger
 from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 from stac_validator.utilities import fetch_and_parse_file
 from zarr.core.array import Array
 from zarr.core.group import Group
-
-#known_eopf_attribute_keys = ['coordinates', 'dimensions', 'dtype', 'long_name', 'short_name', 'units', 'flag_masks', 'flag_meanings', 'flag_values']
+from zarr.storage import ZipStore
+##from aiohttp._http_parser import path
+#from eopf.product.eo_container_validation import _validate_sub_product
 
 EOPF_TOP_ATTR_CATEGORY = ("stac_discovery", "other_metadata", "processing_history")
 EOPF_STD_ATTRIBUTES = ['_ARRAY_DIMENSIONS', 'dimensions', 'dtype', 'long_name', 'units', 'valid_min', 'valid_max', 'add_offset', 'scale_factor', 'standard_name']
-EOPF_MODELS_BASEPATH = 'models'
+EOPF_MODELS_BASEPATH = 'models/cpm_v270'
 
 ModelValidationMode = Literal["EXACT", "AT_LEAST", "ANY"]
 ValidationAnomalyCategories = Literal["STRUCTURE", "STAC", "MODEL"]
@@ -59,7 +62,7 @@ def trimDict(data: Dict, to_remove: List) -> Dict:
             data.pop(key)
     return data
 
-def printStructure(node: dict, base: str = '', indent: str = ''): # to STDOUT
+def printZarrStructure(node: dict, base: str = '', indent: str = ''): # to STDOUT
     #print(f"{indent}  Info: {node.info}")
     name = node.name.replace(base, '')
     # normalize base name 
@@ -72,7 +75,7 @@ def printStructure(node: dict, base: str = '', indent: str = ''): # to STDOUT
             print(f"{indent}/")
         for k in node.keys():
             # recursion
-            printStructure(node.get(k), node.name + '/', indent + '    ')
+            printZarrStructure(node.get(k), node.name + '/', indent + '    ')
         #
     elif isinstance(node, Array):
         dtype = node.dtype
@@ -114,12 +117,12 @@ def generateAttributesModel(node: Dict) -> Dict:
             attrs[attr] = {} 
     return attrs
     
-def generateEopfZarrModel(node: Dict, model = {}) -> Dict:
-    name = node.name 
+def generateEopfZarrModel(node: Dict, model = {}, base = '') -> Dict:
+    name = str(node.name).replace(base, '')
     if isinstance(node, Group):
         for k in node.keys():
             # recurse
-            generateEopfZarrModel(node.get(k), model)
+            generateEopfZarrModel(node.get(k), model, base = base)
             
     elif isinstance(node, Array):
         dtype = str(node.dtype)
@@ -136,16 +139,18 @@ def generateEopfZarrModel(node: Dict, model = {}) -> Dict:
         #model[name]["_eopf_attrs"] = eopf_attrs
         # the eopf_cmp validator daclares the use of the "_eopf_attrs" 
         model[name]["attrs"] = eopf_attrs
+
     return model
 
 def validateZarrModel(node: dict, model = {}, out_anomalies: List[AnomalyDescriptor] = None, logger = None) -> None:
     ## TODO: report anything in node, that is not in model
     # traverse the variables in parallel
+    ##print(f"... node.type={type(node).__name__} and model.type={type(model).__name__}")
     for attr in model.keys():
         value = model[attr]
         type_name = type(value).__name__
-        node_type_name = type(node[attr]).__name__ if attr in node else None 
-        ##print(f"... checking {attr} ({type_name})")
+        ##print(f"... searching node for {attr} ({type_name}) in {type(node).__name__}")
+        node_type_name = type(node[attr]).__name__ if attr in node.keys() else None 
         if attr in ['dont_look_under', 'required', 'eopf_is_masked', 'eopf_is_scaled', 'eopf_target_dtype']:
             # ignore eopf-cpm specials
             continue
@@ -180,55 +185,68 @@ def validateZarrModel(node: dict, model = {}, out_anomalies: List[AnomalyDescrip
                 ##print(msg)
                 append_to_anomalies(out_anomalies, "MODEL", msg, logger)
 
-        ##else:
-        ##    print(f"    check done.")
-    ##var_list: list[str] = validate_product_variables_against_model(product, model, mode, out_anomalies, logger)
-    #var_list = []
-    #for key in chain.from_iterable(product.items()):
-    #    var_list.append(str(key))
-    #    print(str(key))
-    #for var in product.walk():
-    #    if not isinstance(var, EOVariable):
-    #        continue
-    #    var_list.append(var.path)
-    #    if model.variables is not None and var.path in model.variables:
-    #        validate_variable(var, model.variables[var.path], mode, out_anomalies, logger)
-    #    elif mode == "EXACT":
-    #        append_to_anomalies(
-    #            out_anomalies,
-    #            "MODEL",
-    #            f"Variable {var.path} not found in model but is in {product.name}",
-    #            logger,
-    #        )
-    #validate_required_variables_against_model(product, var_list, model, mode, out_anomalies, logger)
-    #validate_attrs_against_jsonschema(product, model.attrs_schema, mode, out_anomalies, logger)
-    #validate_attrs_against_model(product, model.attrs, mode, out_anomalies, logger)
 
-def validateEopfZarr(node: dict, model = {}, out_anomalies: List[AnomalyDescriptor] = None, logger = None) -> None:
+def validateEopfZarr(product: dict, model = {}, out_anomalies: List[AnomalyDescriptor] = None, logger = None) -> None:
     # check that the product and model have the same product type
-    if model.get('product_type_regex', ".*") != ".*":
+    product_type = product.get('product_type_regex', product.get('container_type_regex', ".*"))
+    print(f"product_type = {product_type }") 
+    if product_type != ".*":
+        model_type_regex = model.get('product_type_regex', model.get('container_type_regex', ".*"))
         if product_type == None:
             msg = "Input product type is unknown"
             append_to_anomalies(out_anomalies, "MODEL", msg, logger)
-        elif not re.fullmatch(model.get('product_type_regex'), product_type):
+        elif not re.fullmatch(model_type_regex, product_type):
             msg = f"Product type detected {product.product_type} doesn't match {model.product_type_regex}"
             append_to_anomalies(out_anomalies, "MODEL", msg, logger)
-    validateZarrModel(product['variables'], model['variables'], anomalies, logger) # TODO
+
+    # differentiate simple or container product        
+    if 'sub_products' in product.keys():
+        ##print("product has sub_products") 
+        if  'sub_products' in model.keys():
+            ##print("model has sub_products") 
+            i = 0
+            for sub_product_name in product['sub_products'].keys():
+                ##print(f"product sub_product name = {sub_product_name}")
+                p = product.get('sub_products').get(sub_product_name)
+                print(f"product sub_product type = {type(p).__name__}")
+                ## use best sub_product_name match
+                ##print(f"model sub_product names = {model.get('sub_products').keys()}")
+                keys = model.get('sub_products').keys()
+                matches = [word for word in keys if SequenceMatcher(None, word, sub_product_name).ratio() > 0.5]
+                #best_match = difflib.get_close_matches(sub_product_name, model.get('sub_products').keys())[0] 
+                ##print(f"model best matches= {matches}")
+                best_match = matches[0]
+                ##print(f"model sub_product name best match = {best_match}")
+                m = model.get('sub_products').get(best_match)
+                ##print(f"model sub_product type = {type(m).__name__}")
+                print(f"... validating sub_product {sub_product_name}")
+                print(f"...             with model {best_match}")
+                validateZarrModel(p, m, anomalies, logger) # TODO
+                i += 1
+        else:
+            msg = f"Product with container does not match model"
+            append_to_anomalies(out_anomalies, "MODEL", msg, logger)
+    elif 'sub_products' not in model.keys():
+        print("product has no sub_products") 
+        validateZarrModel(product['variables'], model['variables'], anomalies, logger) # TODO
+    else:
+        msg = f"Product does not match model container structure"
+        append_to_anomalies(out_anomalies, "MODEL", msg, logger)
 
 def printValidationResult(anomalies: List[AnomalyDescriptor]):
     if len(anomalies) > 0:
-        print("Validation failed")
+        print("ERROR: validation failed")
         for a in anomalies:
             print(f"{a.category} {a.description}")
     else:
-        print(f"Validation successful")
+        print(f"INFO: validation successful")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='EOPF STAC Validator')
     parser.add_argument('action', choices=['dump', 'model', 'validate'])
     parser.add_argument("--zarr", type=str, help="Path to Zarr file or URL", required=True)
-    parser.add_argument("--model", type=str, help="Path to model file", required=False)
+    parser.add_argument("--model", type=str, help="Path to model file or directory", required=False)
     parser.add_argument("-v", "--verbose", type=bool, help="verbose mode", action=argparse.BooleanOptionalAction, required=False, default=False)
     args = parser.parse_args()
 
@@ -238,29 +256,65 @@ if __name__ == "__main__":
     if args.verbose:
         print(f"Product file: {zarr_url}")
 
-    z = zarr.open(zarr_url)
+    if pathlib.Path(zarr_url).suffix == '.zip':
+        z = zarr.open(ZipStore(zarr_url))
+    else:
+        z = zarr.open(zarr_url)
 
     # the product type is defined in the Zarr attribute "stac_discovery.properties.product:type"
-    product_type = z.attrs["stac_discovery"]["properties"]["product:type"]
-    if args.verbose:
-        print(f"Product type: {product_type}")
+    try:
+        product_type = z.attrs["stac_discovery"]["properties"]["product:type"]
+        if args.verbose:
+            print(f"Product type: {product_type}")
+    except Exception as e:
+        print(f"Failed to extract product type {e}")
+        product_type = "UNKNOWN"
 
     if args.action == 'dump':
-        printStructure(z)
+        printZarrStructure(z)
     else:
-        vars = generateEopfZarrModel(z)
-        if args.action == 'model':
+        if 'conditions' not in z.keys():
+            # process container elements 
+            sub_products = {}
+            product = { "container_type_regex": product_type, "sub_products": sub_products}
+            ## TODO: create attribute model
+            product['attrs'] = {}
+            ## TODO: check if our Zarr products have sub_containers
+            product['sub_containers'] = {}
+            for p in z.keys():
+                product_type = z.attrs["stac_discovery"]["properties"]["product:type"]
+                component = z.get(p)
+                # iterate into model with clipped name
+                vars = generateEopfZarrModel(component, base = p + '/')
+                sub_products[p] = { "product_type_regex": product_type, "variables": vars, "attrs": {} }
+        else:
+            vars = generateEopfZarrModel(z)
             product = { "product_type_regex": product_type, "variables": vars }
+            ## TODO: create attribute model
+            product['attrs'] = {}
+
+        if args.action == 'model':
             print(json.dumps(product))
         elif args.action == 'validate':
-            model_file = args.model if args.model else EOPF_MODELS_BASEPATH + '/' + product_type + '.json'
+            if args.model:
+                model_path = pathlib.Path(args.model)
+                if model_path.is_dir():
+                    model_file = args.model + '/' + product_type + '.json'
+                elif model_path.exists():
+                    model_file = args.model
+                else:
+                    print(f"ERROR: path to '{args.model}' not found")
+                    exit(1)
+            else:
+                model_file = EOPF_MODELS_BASEPATH + '/' + product_type + '.json'
             if args.verbose:
                 print(f"Loading model: {model_file}")
             model = fetch_and_parse_file(model_file)
-            ##print(json.dumps(model))
-            product = { "product_type": product_type, "variables": vars }
-            anomalies: List[AnomalyDescriptor] = []
+            if args.verbose:
+                print(json.dumps(model))
+
             logger = None
+            anomalies: List[AnomalyDescriptor] = []
             validateEopfZarr(product, model, anomalies, logger) # TODO
             printValidationResult(anomalies)
         else:
