@@ -4,30 +4,10 @@ import json
 import os
 import re
 import requests
-import urllib
+from eopf_qa.utils import check_file_exists
 from stac_validator.utilities import fetch_and_parse_file
 from stac_validator import stac_validator
 #from stac_validator.utilites import fetch_and_parse_file
-
-def __init__():
-    # see warning in https://docs.python.org/3/library/urllib.request.html#module-urllib.request for mac
-    os.environ["no_proxy"] = "*"
-
-def check_file_exists(url):
-    """
-    Checks that a given URL is reachable.
-    :param url: a URL
-    :rtype: bool
-    """
-    request = urllib.request.Request(url)
-    request.get_method = lambda: 'HEAD'
-
-    try:
-        urllib.request.urlopen(request)
-        return True
-    except urllib.request.HTTPError as err:
-        #print(err)
-        return False
 
 def print_json(json_data):
     print(json.dumps(json_data, indent=4))
@@ -112,7 +92,7 @@ def _print_result(url, result):
         print(*result, sep='\n')
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='EOPF ZARR Validator')
+    parser = argparse.ArgumentParser(description='EOPF Zarr Metadata Validator')
     parser.add_argument("--zarr", type=str, help="zarr with .zmetadata (either http or file URL)", required=True)
     parser.add_argument("--schema-map", type=str, help="schema map in the format 'URL,file'", required=False)
     args = parser.parse_args()

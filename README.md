@@ -1,10 +1,11 @@
 [<img src="./static/EOPF-on-bright-baseline.png" width="480">](https://zarr.eopf.copernicus.eu/)
 
 # eopf-qa
-EOPF Zarr Product quality checks (draft)
+EOPF Zarr Product quality checks
 
-## Stakehoders
+## Targeet Audience
 ESA, EOPF Developers, Users, Eurac, and EOPF-ZSS internal ingestion workflow
+
 Implemented as a library to be either called during STAC-Item generation or within a JN to check the correctness and completeness of an EOPF-Product
 
 ## Goals
@@ -17,13 +18,8 @@ Implemented as a library to be either called during STAC-Item generation or with
     * Expected assets for product type exist (if existing validator does not check this)
     * Expected zarr assets for product type exist
     * Expected zarr assets match EOPF-ZSS library expectations
-* Read the Zarr metadata and check that the chunks exist
-  Note out-of-scope: checksums [not available] and reading the data to check Zarr contents and datatypes
-* Check difference or align with CDSE (possibly with properties to allow or disable variants)
-* Proivide properties to disable specific checks to allow validating an ingesting the current state of EOPF products
-  * setup tickets in EOPF-CPM and CDSE to foster alignment of EOPF product generation and STAC items
-* Agree with EODC on how to report EOPF product errors like missing chunks (within ingestion workflow) to abort publishing and request operator clearance
-* library updates after EOPF products evolve.
+* Validate the Zarr structure against a model and check that a .zattrs file exists at data level
+  (Note out-of-scope: checksums [not available] and reading the data to check Zarr chunks, contents and datatypes)
 
 ## Usage examples
 
@@ -32,6 +28,7 @@ Implemented as a library to be either called during STAC-Item generation or with
 python3 ./eopf_qa/zarr_metadata_qa.py --help
 ```
 Shows:
+
 ```
 usage: zarr_metadata_qa.py [-h] --zarr ZARR [--schema-map SCHEMA_MAP]
     
@@ -44,9 +41,10 @@ options:
                         schema map in the format 'URL,file'
 ```
 
+
 Simlarly for the `eopf_stac_qa.py` tool:
-```bash
-python3 ./eopf_qa/eopf_stac_qa.py --help
+
+```
 usage: eopf_stac_qa.py [-h] --stac STAC [--expectedStacLinks EXPECTEDSTACLINKS] [--expectedStacAssets EXPECTEDSTACASSETS] [--schema-map SCHEMA_MAP]
 
 EOPF STAC Validator
@@ -60,6 +58,22 @@ options:
                         assets to check, comma separated
   --schema-map SCHEMA_MAP
                         schema map in the format 'URL,file'
+```
+
+And the **EOPF Zarr model validator** with the `eopf_zarr_qa.py` tool:
+
+```
+usage: eopf_zarr_qa.py [-h] {inspect,model,validate} --zarr ZARR [--model MODEL] [-z | --nozarrfilecheck] [-v | --verbose]
+
+EOPF Zarr Model Validator
+
+positional arguments: {inspect,model,validate}
+options:
+  -h, --help            show this help message and exit
+  --zarr ZARR           path to Zarr file or URL
+  --model MODEL         path to model file or directory
+  -z, --nozarrfilecheck skip zarr file checks
+  -v, --verbose         verbose mode
 ```
 
 
@@ -79,3 +93,9 @@ reports `missing TCI_10m asset file, and an error in the .zmetadata: "Error in S
 ```bash
 python3 eopf_qa/eopf_stac_qa.py --stac 'tests/sample-data/stac-s2l1c.json'
 ```
+
+### Validate a remote EOPF Zarr file against a model
+```bash
+python3 eopf_qa/eopf_zarr_qa.py validate --zarr https://objects.eodc.eu/e05ab01a9d56408d82ac32d69a5aae2a:202604-s02msil1c-eu/07/products/cpm_v270/S2B_MSIL1C_20260407T125029_N0512_R095_T26TKK_20260407T150815.zarr --model models/cpm_v270/S02MSIL1C.json
+```
+

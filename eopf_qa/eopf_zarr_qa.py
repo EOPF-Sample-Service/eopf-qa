@@ -2,12 +2,15 @@
 #
 import argparse
 import json
-import pathlib
+import logging
 import re
+import time
 import zarr
+from utils import check_file_exists
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from logging import Logger
+from pathlib import Path
 from typing import Any, Dict, List, Literal, Optional, Tuple, Union
 from stac_validator.utilities import fetch_and_parse_file
 from zarr.core.array import Array
@@ -142,14 +145,18 @@ def generateEopfZarrModel(node: Dict, model = {}, base = '') -> Dict:
 
     return model
 
-def validateZarrModel(node: dict, model = {}, out_anomalies: List[AnomalyDescriptor] = None, logger = None) -> None:
+def validateZarrModel(node: dict, model = {}, 
+                      zarr_url: str = None,
+                      zarr_path: str = None,
+                      out_anomalies: List[AnomalyDescriptor] = None, 
+                      logger = None) -> None:
     ## TODO: report anything in node, that is not in model
     # traverse the variables in parallel
     ##print(f"... node.type={type(node).__name__} and model.type={type(model).__name__}")
     for attr in model.keys():
         value = model[attr]
         type_name = type(value).__name__
-        ##print(f"... searching node for {attr} ({type_name}) in {type(node).__name__}")
+        ##print(f"... searching {zarr_path} for {attr} ({type_name}) in {type(node).__name__} [{len(value)}]")
         node_type_name = type(node[attr]).__name__ if attr in node.keys() else None 
         if attr in ['dont_look_under', 'required', 'eopf_is_masked', 'eopf_is_scaled', 'eopf_target_dtype']:
             # ignore eopf-cpm specials
@@ -163,10 +170,36 @@ def validateZarrModel(node: dict, model = {}, out_anomalies: List[AnomalyDescrip
             ##print(msg)
             append_to_anomalies(out_anomalies, "MODEL", f"node missing {attr} from model", logger)
         elif type_name != 'str' and len(value) > 0:
+            # relative location of zarr file
+            if not zarr_path:
+                zarr_path = ''
+            if not attr.startswith("/"):
+                zarr_path += '/' + attr
+
+            try:
+                if attr.startswith("/"):
+                    zattrs_file = zarr_url + attr + '/' + '.zattrs'
+                    check_file_exists(zattrs_file)
+                    ##print(f"    found {zattrs_file}")
+            except Exception as e:
+                msg = f"    missing {zarr_path}"
+                ##print(msg)
+                append_to_anomalies(out_anomalies, "FILE", msg, logger)
+                
             if isinstance(value, Dict):
+                ##try:
+                ##    if attr.startswith("/"):
+                ##        zattrs_file = zarr_url + attr + '/' + '.zgroup'
+                ##        check_file_exists(zattrs_file)
+                ##        print(f"    found {zattrs_file}")
+                ##except Exception as e:
+                ##   msg = f"    node {attr} has no '.zgroup' file: {e}"
+                ##    append_to_anomalies(out_anomalies, "FILE", msg, logger)
                 ##print(f">>> traversing group {attr}")
+                ##if checkzarrfiles:
+                ##    print(f"... checking {value}")
                 # iterate
-                validateZarrModel(node[attr], value, out_anomalies, logger)
+                validateZarrModel(node[attr], value, zarr_url, zarr_path, out_anomalies, logger)
                 ##print(f"<<< traversing group {attr}")
             elif isinstance(value, List):
                 ##print(f"... checking attributes {attr}")
@@ -186,7 +219,10 @@ def validateZarrModel(node: dict, model = {}, out_anomalies: List[AnomalyDescrip
                 append_to_anomalies(out_anomalies, "MODEL", msg, logger)
 
 
-def validateEopfZarr(product: dict, model = {}, out_anomalies: List[AnomalyDescriptor] = None, logger = None) -> None:
+def validateEopfZarr(product: dict, 
+                     model = {}, 
+                     out_anomalies: List[AnomalyDescriptor] = None, 
+                     logger = None) -> None:
     # check that the product and model have the same product type
     product_type = product.get('product_type_regex', product.get('container_type_regex', ".*"))
     ##print(f"product_type = {product_type }") 
@@ -221,42 +257,59 @@ def validateEopfZarr(product: dict, model = {}, out_anomalies: List[AnomalyDescr
                 ##print(f"model sub_product type = {type(m).__name__}")
                 ##print(f"... validating sub_product {sub_product_name}")
                 ##print(f"...             with model {best_match}")
-                validateZarrModel(p, m, anomalies, logger) # TODO
+                zarr_url = product['path'] + '/' + sub_product_name
+                validateZarrModel(p['variables'], m['variables'], zarr_url, None, anomalies, logger) # TODO
                 i += 1
         else:
             msg = f"Product with container does not match model"
             append_to_anomalies(out_anomalies, "MODEL", msg, logger)
     elif 'sub_products' not in model.keys():
         ##print("product has no sub_products") 
-        validateZarrModel(product['variables'], model['variables'], anomalies, logger) # TODO
+        validateZarrModel(product['variables'], model['variables'], product['path'], None, anomalies, logger) # TODO
     else:
         msg = f"Product does not match model container structure"
         append_to_anomalies(out_anomalies, "MODEL", msg, logger)
 
-def printValidationResult(anomalies: List[AnomalyDescriptor]):
+def printValidationResult(anomalies: List[AnomalyDescriptor], verbose = False):
     if len(anomalies) > 0:
-        print("ERROR: validation failed")
+        logging.error("validation failed")
+        limit = 20 if not verbose else 1000
+        count = 1
         for a in anomalies:
-            print(f"{a.category} {a.description}")
+            logging.error(f"{a.category} {a.description}")
+            count += 1
+            if count > limit:
+                logging.warning(f"... and {len(anomalies) - count} more validation errors")
+                return 
     else:
-        print(f"INFO: validation successful")
+        logging.info(f"validation successful")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='EOPF STAC Validator')
-    parser.add_argument('action', choices=['dump', 'model', 'validate'])
-    parser.add_argument("--zarr", type=str, help="Path to Zarr file or URL", required=True)
-    parser.add_argument("--model", type=str, help="Path to model file or directory", required=False)
+    logging.basicConfig(
+        format='%(asctime)s %(levelname)-8s %(message)s',
+        level=logging.INFO,
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+
+    parser = argparse.ArgumentParser(description='EOPF Zarr Model Validator')
+    parser.add_argument('action', choices=['inspect', 'model', 'validate'])
+    parser.add_argument("--zarr", type=str, help="path to Zarr file or URL", required=True)
+    parser.add_argument("--model", type=str, help="path to model file or directory", required=False)
+    parser.add_argument("-z", "--nozarrfilecheck", type=bool, help="skip zarr file checks", action=argparse.BooleanOptionalAction, required=False, default=False)
     parser.add_argument("-v", "--verbose", type=bool, help="verbose mode", action=argparse.BooleanOptionalAction, required=False, default=False)
     args = parser.parse_args()
 
     #zarr_url = "https://objects.eodc.eu/e05ab01a9d56408d82ac32d69a5aae2a:202604-s02msil1c-eu/07/products/cpm_v270/S2B_MSIL1C_20260407T125029_N0512_R095_T26TKK_20260407T150815.zarr"
     zarr_url = args.zarr
+    # convert to URL
+    if not zarr_url.startswith("http") and not zarr_url.startswith("s3:"):
+        zarr_url = Path(zarr_url).resolve().as_uri()
     
     if args.verbose:
-        print(f"Product file: {zarr_url}")
+        logging.info(f"Product file: {zarr_url}")
 
-    if pathlib.Path(zarr_url).suffix == '.zip':
+    if Path(zarr_url).suffix == '.zip':
         z = zarr.open(ZipStore(zarr_url))
     else:
         z = zarr.open(zarr_url)
@@ -265,18 +318,18 @@ if __name__ == "__main__":
     try:
         product_type = z.attrs["stac_discovery"]["properties"]["product:type"]
         if args.verbose:
-            print(f"Product type: {product_type}")
+            logging.info(f"Product type: {product_type}")
     except Exception as e:
-        print(f"Failed to extract product type {e}")
+        logging.error(f"Failed to extract product type {e}")
         product_type = "UNKNOWN"
 
-    if args.action == 'dump':
+    if args.action == 'inspect':
         printZarrStructure(z)
     else:
         if 'conditions' not in z.keys():
             # process container elements 
             sub_products = {}
-            product = { "container_type_regex": product_type, "sub_products": sub_products}
+            product = {"container_type_regex": product_type, "sub_products": sub_products}
             ## TODO: create attribute model
             product['attrs'] = {}
             ## TODO: check if our Zarr products have sub_containers
@@ -296,27 +349,31 @@ if __name__ == "__main__":
         if args.action == 'model':
             print(json.dumps(product))
         elif args.action == 'validate':
+            if not args.nozarrfilecheck:
+                # will use this path to validate the accessibility of the zarr groups and attr files
+                product['path'] = zarr_url
+
             if args.model:
-                model_path = pathlib.Path(args.model)
+                model_path = Path(args.model)
                 if model_path.is_dir():
                     model_file = args.model + '/' + product_type + '.json'
                 elif model_path.exists():
                     model_file = args.model
                 else:
-                    print(f"ERROR: path to '{args.model}' not found")
+                    logging.error(f"ERROR: path to '{args.model}' not found")
                     exit(1)
             else:
                 model_file = EOPF_MODELS_BASEPATH + '/' + product_type + '.json'
             if args.verbose:
-                print(f"Loading model: {model_file}")
+                logging.info(f"Loading model: {model_file}")
             model = fetch_and_parse_file(model_file)
-            if args.verbose:
-                print(json.dumps(model))
+            ##if args.verbose:
+            ##    logging.info(json.dumps(model))
 
             logger = None
             anomalies: List[AnomalyDescriptor] = []
             validateEopfZarr(product, model, anomalies, logger) # TODO
-            printValidationResult(anomalies)
+            printValidationResult(anomalies, args.verbose)
         else:
-            print(f"ERROR: no action specified")
+            logging.error(f"ERROR: no action specified")
             parser.print_help()
