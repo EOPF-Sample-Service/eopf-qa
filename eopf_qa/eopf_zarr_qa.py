@@ -208,7 +208,7 @@ def validateZarrModel(node: dict, model = {},
                 zarr_path += '/' + attr
 
             try:
-                if attr.startswith("/"):
+                if attr.startswith("/") and zarr_url != '':
                     zattrs_file = zarr_url + attr + '/' + '.zattrs'
                     logger.debug(f"... looking for {zattrs_file}")
                     ##print(f"    checking {zattrs_file}")
@@ -269,7 +269,7 @@ def validateEopfZarr(product_model: dict,
 
     # differentiate simple or container product_model        
     if 'sub_containers' in product_model.keys() and len(product_model['sub_containers']) > 0:
-        logger.info(f"product_model has sub_containers at path={product_model['path']}") 
+        logger.info(f"product_model has sub_containers") 
         if  'sub_containers' in reference_model.keys():
             ##print("model has sub_containers") 
             for sub_container_name in product_model['sub_containers'].keys():
@@ -278,7 +278,8 @@ def validateEopfZarr(product_model: dict,
                 m = reference_model.get('sub_containers').get(sub_container_name)
                 ##print(f"model sub_container type = {type(m).__name__}")
                 logger.info(f"... validating sub_containers {sub_container_name}")
-                p['path'] = product_model['path'] + '/' + sub_container_name
+                if product_model.get('path'):
+                    p['path'] = product_model['path'] + '/' + sub_container_name
                 validateEopfZarr(p, m, anomalies, logger) # TODO
         else:
             msg = f"Product with sub_containers does not match model"
@@ -304,14 +305,17 @@ def validateEopfZarr(product_model: dict,
                 ##print(f"model sub_product type = {type(m).__name__}")
                 logger.info(f"... validating sub_product {sub_product_name}")
                 ##print(f"...             with model {best_match}")
-                zarr_url = product_model['path'] + '/' + sub_product_name
+                if product_model.get('path'):
+                    zarr_url = product_model['path'] + '/' + sub_product_name
+                else:
+                    zarr_url = ''
                 validateZarrModel(p['variables'], m['variables'], zarr_url, '', anomalies, logger) # TODO
         else:
             msg = f"Product with sub_products does not match model"
             append_to_anomalies(out_anomalies, "MODEL", msg, logger)
     elif 'sub_products' not in reference_model.keys():
         logger.debug("product_model has no sub_products") 
-        validateZarrModel(product_model['variables'], reference_model['variables'], product_model['path'], '', anomalies, logger) # TODO
+        validateZarrModel(product_model['variables'], reference_model['variables'], product_model.get('path', ''), '', anomalies, logger) # TODO
     else:
         msg = f"Product does not match model container structure"
         append_to_anomalies(out_anomalies, "MODEL", msg, logger)
@@ -380,7 +384,7 @@ if __name__ == "__main__":
     parser.add_argument('action', choices=['inspect', 'model', 'validate'])
     parser.add_argument("--zarr", type=str, help="path to Zarr file or URL", required=True)
     parser.add_argument("--model", type=str, help="path to model file or directory", required=False)
-    parser.add_argument("-z", "--nozarrfilecheck", type=bool, help="skip Zarr .attrs file checks", action=argparse.BooleanOptionalAction, required=False, default=False)
+    parser.add_argument("-s", "--skipzarrfilecheck", type=bool, help="skip Zarr .attrs file checks", action=argparse.BooleanOptionalAction, required=False, default=False)
     parser.add_argument("-v", "--verbose",  help="verbose mode 0:WARN 1:INFO 2:DEBUG", action='count', required=False, default=0)
     parser.add_argument("-q", "--quiet", type=bool, help="do not print result, only exit code > 0 on error", action=argparse.BooleanOptionalAction, required=False, default=False)
     args = parser.parse_args()
@@ -430,7 +434,7 @@ if __name__ == "__main__":
         elif args.action == 'validate':
             logger.info(f"validating {zarr_url}")
 
-            if not args.nozarrfilecheck:
+            if not args.skipzarrfilecheck:
                 # will use this path to validate the accessibility of the zarr groups and attr files
                 product_model['path'] = zarr_url if zarr_url.startswith('http') else Path(zarr_url).resolve().as_uri() 
 
