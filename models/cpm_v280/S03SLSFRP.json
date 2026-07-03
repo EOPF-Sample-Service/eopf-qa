@@ -1,0 +1,5130 @@
+{
+    "product_type_regex": "S03SLSFRP",
+    "variables": {
+        "/quality/fnadir/cloud_fn": {
+            "dtype": "uint16",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/fnadir/pointing_fn": {
+            "dtype": "uint8",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/fnadir/confidence_fn": {
+            "dtype": "uint16",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/inadir/cloud_in": {
+            "dtype": "uint16",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/inadir/pointing_in": {
+            "dtype": "uint8",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/inadir/confidence_in": {
+            "dtype": "uint16",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/fnadir/elevation": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/auxiliary/inadir/elevation": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/solar_zenith_tn": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/solar_azimuth_tn": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/solar_path_tn": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/sat_zenith_tn": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/sat_azimuth_tn": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/sat_path_tn": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/processing/fnadir/scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/processing/fnadir/pixel": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/processing/fnadir/detector": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/processing/inadir/scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/processing/inadir/pixel": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/processing/inadir/detector": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/sea_surface_temperature_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/sea_ice_fraction_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/u_wind_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/v_wind_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/sensible_heat_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/latent_heat_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/solar_radiation_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/thermal_radiation_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/temperature_profile_tp": {
+            "dtype": "float32",
+            "dims": [
+                "p_atmos",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/specific_humidity_tp": {
+            "dtype": "float32",
+            "dims": [
+                "p_atmos",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/total_column_water_vapour_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/surface_pressure_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/east_west_stress_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/north_south_stress_tp": {
+            "dtype": "float32",
+            "dims": [
+                "t_series",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/cloud_fraction_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/soil_wetness_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/temperature_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/dew_point_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/skin_temperature_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/snow_depth_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/total_column_ozone_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/snow_albedo_tp": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "model": {},
+                "parameter": {},
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/time_stamp": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/nadir_first_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/oblique_first_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/nadir_last_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/oblique_last_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/nadir_minimal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/oblique_minimal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/nadir_maximal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/anadir/oblique_maximal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/time_stamp": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/nadir_first_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/oblique_first_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/nadir_last_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/oblique_last_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/nadir_minimal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/oblique_minimal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/nadir_maximal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/bnadir/oblique_maximal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/time_stamp": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/nadir_first_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/oblique_first_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/nadir_last_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/oblique_last_scan": {
+            "dtype": "float32",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/nadir_minimal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/oblique_minimal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/nadir_maximal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/time/inadir/oblique_maximal_ts": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "rows"
+            ],
+            "attrs": {
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/i": {
+            "dtype": "int16",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/j": {
+            "dtype": "int32",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/time": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/frp_swir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/frp_uncertainty_swir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/transmittance_swir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/ratio_s56": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/s5_confirm": {
+            "dtype": "uint8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/classification": {
+            "dtype": "uint8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/s6_fire_pixel_radiance": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/s5_fire_pixel_radiance": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/radiance_window_s6": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/ifov_area": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/tcwv": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "source": {},
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/anadir/flags": {
+            "dtype": "uint32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/i": {
+            "dtype": "int16",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/j": {
+            "dtype": "int32",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/time": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/frp_swir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/frp_uncertainty_swir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/transmittance_swir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/ratio_s56": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/s5_confirm": {
+            "dtype": "uint8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/classification": {
+            "dtype": "uint8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/s6_fire_pixel_radiance": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/s5_fire_pixel_radiance": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/radiance_window_s6": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/ifov_area": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/tcwv": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "source": {},
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/bnadir/flags": {
+            "dtype": "uint32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/i": {
+            "dtype": "int16",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/j": {
+            "dtype": "int32",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/time": {
+            "dtype": "datetime64[ns]",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/frp_mwir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/frp_uncertainty_mwir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/transmittance_mwir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/classification": {
+            "dtype": "uint8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/s7_fire_pixel_radiance": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/f1_fire_pixel_radiance": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/used_channel": {
+            "dtype": "uint8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/radiance_window": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/glint_angle": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/bt_mir": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/bt_window": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/sun_zenith_angle": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/satellite_zenith_angle": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/day_night": {
+            "dtype": "int8",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/ifov_area": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/tcwv": {
+            "dtype": "float64",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "source": {},
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/n_window": {
+            "dtype": "int16",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/n_water": {
+            "dtype": "int16",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/n_cloud": {
+            "dtype": "int16",
+            "dims": [
+                "fires"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/inadir/flags": {
+            "dtype": "uint32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_values": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        }
+    },
+    "attrs": {
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/id": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/collection": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/gsd": {},
+        "stac_discovery/properties/providers": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/product:acquisition_type": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:orbit_cycle": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/properties/sat:platform_international_designator": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/processing:level": {},
+        "stac_discovery/properties/processing:facility": {},
+        "stac_discovery/properties/proj:shape": {},
+        "stac_discovery/properties/processing:version": {},
+        "stac_discovery/links": {},
+        "stac_discovery/assets/cloud_fn/href": {},
+        "stac_discovery/assets/cloud_fn/title": {},
+        "stac_discovery/assets/pointing_fn/href": {},
+        "stac_discovery/assets/pointing_fn/title": {},
+        "stac_discovery/assets/confidence_fn/href": {},
+        "stac_discovery/assets/confidence_fn/title": {},
+        "stac_discovery/assets/cloud_in/href": {},
+        "stac_discovery/assets/cloud_in/title": {},
+        "stac_discovery/assets/pointing_in/href": {},
+        "stac_discovery/assets/pointing_in/title": {},
+        "stac_discovery/assets/confidence_in/href": {},
+        "stac_discovery/assets/confidence_in/title": {},
+        "stac_discovery/assets/elevation/href": {},
+        "stac_discovery/assets/elevation/title": {},
+        "stac_discovery/assets/elevation_auxiliary_inadir/href": {},
+        "stac_discovery/assets/elevation_auxiliary_inadir/title": {},
+        "stac_discovery/assets/solar_zenith_tn/href": {},
+        "stac_discovery/assets/solar_zenith_tn/title": {},
+        "stac_discovery/assets/solar_azimuth_tn/href": {},
+        "stac_discovery/assets/solar_azimuth_tn/title": {},
+        "stac_discovery/assets/solar_path_tn/href": {},
+        "stac_discovery/assets/solar_path_tn/title": {},
+        "stac_discovery/assets/sat_zenith_tn/href": {},
+        "stac_discovery/assets/sat_zenith_tn/title": {},
+        "stac_discovery/assets/sat_azimuth_tn/href": {},
+        "stac_discovery/assets/sat_azimuth_tn/title": {},
+        "stac_discovery/assets/sat_path_tn/href": {},
+        "stac_discovery/assets/sat_path_tn/title": {},
+        "stac_discovery/assets/scan/href": {},
+        "stac_discovery/assets/scan/title": {},
+        "stac_discovery/assets/pixel/href": {},
+        "stac_discovery/assets/pixel/title": {},
+        "stac_discovery/assets/detector/href": {},
+        "stac_discovery/assets/detector/title": {},
+        "stac_discovery/assets/scan_processing_inadir/href": {},
+        "stac_discovery/assets/scan_processing_inadir/title": {},
+        "stac_discovery/assets/pixel_processing_inadir/href": {},
+        "stac_discovery/assets/pixel_processing_inadir/title": {},
+        "stac_discovery/assets/detector_processing_inadir/href": {},
+        "stac_discovery/assets/detector_processing_inadir/title": {},
+        "stac_discovery/assets/sea_surface_temperature_tp/href": {},
+        "stac_discovery/assets/sea_surface_temperature_tp/title": {},
+        "stac_discovery/assets/sea_ice_fraction_tp/href": {},
+        "stac_discovery/assets/sea_ice_fraction_tp/title": {},
+        "stac_discovery/assets/u_wind_tp/href": {},
+        "stac_discovery/assets/u_wind_tp/title": {},
+        "stac_discovery/assets/v_wind_tp/href": {},
+        "stac_discovery/assets/v_wind_tp/title": {},
+        "stac_discovery/assets/sensible_heat_tp/href": {},
+        "stac_discovery/assets/sensible_heat_tp/title": {},
+        "stac_discovery/assets/latent_heat_tp/href": {},
+        "stac_discovery/assets/latent_heat_tp/title": {},
+        "stac_discovery/assets/solar_radiation_tp/href": {},
+        "stac_discovery/assets/solar_radiation_tp/title": {},
+        "stac_discovery/assets/thermal_radiation_tp/href": {},
+        "stac_discovery/assets/thermal_radiation_tp/title": {},
+        "stac_discovery/assets/temperature_profile_tp/href": {},
+        "stac_discovery/assets/temperature_profile_tp/title": {},
+        "stac_discovery/assets/specific_humidity_tp/href": {},
+        "stac_discovery/assets/specific_humidity_tp/title": {},
+        "stac_discovery/assets/total_column_water_vapour_tp/href": {},
+        "stac_discovery/assets/total_column_water_vapour_tp/title": {},
+        "stac_discovery/assets/surface_pressure_tp/href": {},
+        "stac_discovery/assets/surface_pressure_tp/title": {},
+        "stac_discovery/assets/east_west_stress_tp/href": {},
+        "stac_discovery/assets/east_west_stress_tp/title": {},
+        "stac_discovery/assets/north_south_stress_tp/href": {},
+        "stac_discovery/assets/north_south_stress_tp/title": {},
+        "stac_discovery/assets/cloud_fraction_tp/href": {},
+        "stac_discovery/assets/cloud_fraction_tp/title": {},
+        "stac_discovery/assets/soil_wetness_tp/href": {},
+        "stac_discovery/assets/soil_wetness_tp/title": {},
+        "stac_discovery/assets/temperature_tp/href": {},
+        "stac_discovery/assets/temperature_tp/title": {},
+        "stac_discovery/assets/dew_point_tp/href": {},
+        "stac_discovery/assets/dew_point_tp/title": {},
+        "stac_discovery/assets/skin_temperature_tp/href": {},
+        "stac_discovery/assets/skin_temperature_tp/title": {},
+        "stac_discovery/assets/snow_depth_tp/href": {},
+        "stac_discovery/assets/snow_depth_tp/title": {},
+        "stac_discovery/assets/total_column_ozone_tp/href": {},
+        "stac_discovery/assets/total_column_ozone_tp/title": {},
+        "stac_discovery/assets/snow_albedo_tp/href": {},
+        "stac_discovery/assets/snow_albedo_tp/title": {},
+        "stac_discovery/assets/time_stamp/href": {},
+        "stac_discovery/assets/time_stamp/title": {},
+        "stac_discovery/assets/nadir_first_scan/href": {},
+        "stac_discovery/assets/nadir_first_scan/title": {},
+        "stac_discovery/assets/oblique_first_scan/href": {},
+        "stac_discovery/assets/oblique_first_scan/title": {},
+        "stac_discovery/assets/nadir_last_scan/href": {},
+        "stac_discovery/assets/nadir_last_scan/title": {},
+        "stac_discovery/assets/oblique_last_scan/href": {},
+        "stac_discovery/assets/oblique_last_scan/title": {},
+        "stac_discovery/assets/nadir_minimal_ts/href": {},
+        "stac_discovery/assets/nadir_minimal_ts/title": {},
+        "stac_discovery/assets/oblique_minimal_ts/href": {},
+        "stac_discovery/assets/oblique_minimal_ts/title": {},
+        "stac_discovery/assets/nadir_maximal_ts/href": {},
+        "stac_discovery/assets/nadir_maximal_ts/title": {},
+        "stac_discovery/assets/oblique_maximal_ts/href": {},
+        "stac_discovery/assets/oblique_maximal_ts/title": {},
+        "stac_discovery/assets/time_stamp_time_bnadir/href": {},
+        "stac_discovery/assets/time_stamp_time_bnadir/title": {},
+        "stac_discovery/assets/nadir_first_scan_time_bnadir/href": {},
+        "stac_discovery/assets/nadir_first_scan_time_bnadir/title": {},
+        "stac_discovery/assets/oblique_first_scan_time_bnadir/href": {},
+        "stac_discovery/assets/oblique_first_scan_time_bnadir/title": {},
+        "stac_discovery/assets/nadir_last_scan_time_bnadir/href": {},
+        "stac_discovery/assets/nadir_last_scan_time_bnadir/title": {},
+        "stac_discovery/assets/oblique_last_scan_time_bnadir/href": {},
+        "stac_discovery/assets/oblique_last_scan_time_bnadir/title": {},
+        "stac_discovery/assets/nadir_minimal_ts_time_bnadir/href": {},
+        "stac_discovery/assets/nadir_minimal_ts_time_bnadir/title": {},
+        "stac_discovery/assets/oblique_minimal_ts_time_bnadir/href": {},
+        "stac_discovery/assets/oblique_minimal_ts_time_bnadir/title": {},
+        "stac_discovery/assets/nadir_maximal_ts_time_bnadir/href": {},
+        "stac_discovery/assets/nadir_maximal_ts_time_bnadir/title": {},
+        "stac_discovery/assets/oblique_maximal_ts_time_bnadir/href": {},
+        "stac_discovery/assets/oblique_maximal_ts_time_bnadir/title": {},
+        "stac_discovery/assets/time_stamp_time_inadir/href": {},
+        "stac_discovery/assets/time_stamp_time_inadir/title": {},
+        "stac_discovery/assets/nadir_first_scan_time_inadir/href": {},
+        "stac_discovery/assets/nadir_first_scan_time_inadir/title": {},
+        "stac_discovery/assets/oblique_first_scan_time_inadir/href": {},
+        "stac_discovery/assets/oblique_first_scan_time_inadir/title": {},
+        "stac_discovery/assets/nadir_last_scan_time_inadir/href": {},
+        "stac_discovery/assets/nadir_last_scan_time_inadir/title": {},
+        "stac_discovery/assets/oblique_last_scan_time_inadir/href": {},
+        "stac_discovery/assets/oblique_last_scan_time_inadir/title": {},
+        "stac_discovery/assets/nadir_minimal_ts_time_inadir/href": {},
+        "stac_discovery/assets/nadir_minimal_ts_time_inadir/title": {},
+        "stac_discovery/assets/oblique_minimal_ts_time_inadir/href": {},
+        "stac_discovery/assets/oblique_minimal_ts_time_inadir/title": {},
+        "stac_discovery/assets/nadir_maximal_ts_time_inadir/href": {},
+        "stac_discovery/assets/nadir_maximal_ts_time_inadir/title": {},
+        "stac_discovery/assets/oblique_maximal_ts_time_inadir/href": {},
+        "stac_discovery/assets/oblique_maximal_ts_time_inadir/title": {},
+        "stac_discovery/assets/i/href": {},
+        "stac_discovery/assets/i/title": {},
+        "stac_discovery/assets/j/href": {},
+        "stac_discovery/assets/j/title": {},
+        "stac_discovery/assets/time/href": {},
+        "stac_discovery/assets/time/title": {},
+        "stac_discovery/assets/frp_swir/href": {},
+        "stac_discovery/assets/frp_swir/title": {},
+        "stac_discovery/assets/frp_uncertainty_swir/href": {},
+        "stac_discovery/assets/frp_uncertainty_swir/title": {},
+        "stac_discovery/assets/transmittance_swir/href": {},
+        "stac_discovery/assets/transmittance_swir/title": {},
+        "stac_discovery/assets/ratio_s56/href": {},
+        "stac_discovery/assets/ratio_s56/title": {},
+        "stac_discovery/assets/s5_confirm/href": {},
+        "stac_discovery/assets/s5_confirm/title": {},
+        "stac_discovery/assets/classification/href": {},
+        "stac_discovery/assets/classification/title": {},
+        "stac_discovery/assets/s6_fire_pixel_radiance/href": {},
+        "stac_discovery/assets/s6_fire_pixel_radiance/title": {},
+        "stac_discovery/assets/s5_fire_pixel_radiance/href": {},
+        "stac_discovery/assets/s5_fire_pixel_radiance/title": {},
+        "stac_discovery/assets/radiance_window_s6/href": {},
+        "stac_discovery/assets/radiance_window_s6/title": {},
+        "stac_discovery/assets/ifov_area/href": {},
+        "stac_discovery/assets/ifov_area/title": {},
+        "stac_discovery/assets/tcwv/href": {},
+        "stac_discovery/assets/tcwv/title": {},
+        "stac_discovery/assets/flags/href": {},
+        "stac_discovery/assets/flags/title": {},
+        "stac_discovery/assets/i_bnadir/href": {},
+        "stac_discovery/assets/i_bnadir/title": {},
+        "stac_discovery/assets/j_bnadir/href": {},
+        "stac_discovery/assets/j_bnadir/title": {},
+        "stac_discovery/assets/time_bnadir/href": {},
+        "stac_discovery/assets/time_bnadir/title": {},
+        "stac_discovery/assets/frp_swir_bnadir/href": {},
+        "stac_discovery/assets/frp_swir_bnadir/title": {},
+        "stac_discovery/assets/frp_uncertainty_swir_bnadir/href": {},
+        "stac_discovery/assets/frp_uncertainty_swir_bnadir/title": {},
+        "stac_discovery/assets/transmittance_swir_bnadir/href": {},
+        "stac_discovery/assets/transmittance_swir_bnadir/title": {},
+        "stac_discovery/assets/ratio_s56_bnadir/href": {},
+        "stac_discovery/assets/ratio_s56_bnadir/title": {},
+        "stac_discovery/assets/s5_confirm_bnadir/href": {},
+        "stac_discovery/assets/s5_confirm_bnadir/title": {},
+        "stac_discovery/assets/classification_bnadir/href": {},
+        "stac_discovery/assets/classification_bnadir/title": {},
+        "stac_discovery/assets/s6_fire_pixel_radiance_bnadir/href": {},
+        "stac_discovery/assets/s6_fire_pixel_radiance_bnadir/title": {},
+        "stac_discovery/assets/s5_fire_pixel_radiance_bnadir/href": {},
+        "stac_discovery/assets/s5_fire_pixel_radiance_bnadir/title": {},
+        "stac_discovery/assets/radiance_window_s6_bnadir/href": {},
+        "stac_discovery/assets/radiance_window_s6_bnadir/title": {},
+        "stac_discovery/assets/ifov_area_bnadir/href": {},
+        "stac_discovery/assets/ifov_area_bnadir/title": {},
+        "stac_discovery/assets/tcwv_bnadir/href": {},
+        "stac_discovery/assets/tcwv_bnadir/title": {},
+        "stac_discovery/assets/flags_bnadir/href": {},
+        "stac_discovery/assets/flags_bnadir/title": {},
+        "stac_discovery/assets/i_inadir/href": {},
+        "stac_discovery/assets/i_inadir/title": {},
+        "stac_discovery/assets/j_inadir/href": {},
+        "stac_discovery/assets/j_inadir/title": {},
+        "stac_discovery/assets/time_inadir/href": {},
+        "stac_discovery/assets/time_inadir/title": {},
+        "stac_discovery/assets/frp_mwir_inadir/href": {},
+        "stac_discovery/assets/frp_mwir_inadir/title": {},
+        "stac_discovery/assets/frp_uncertainty_mwir/href": {},
+        "stac_discovery/assets/frp_uncertainty_mwir/title": {},
+        "stac_discovery/assets/transmittance_mwir/href": {},
+        "stac_discovery/assets/transmittance_mwir/title": {},
+        "stac_discovery/assets/classification_inadir/href": {},
+        "stac_discovery/assets/classification_inadir/title": {},
+        "stac_discovery/assets/s7_fire_pixel_radiance/href": {},
+        "stac_discovery/assets/s7_fire_pixel_radiance/title": {},
+        "stac_discovery/assets/f1_fire_pixel_radiance/href": {},
+        "stac_discovery/assets/f1_fire_pixel_radiance/title": {},
+        "stac_discovery/assets/used_channel_inadir/href": {},
+        "stac_discovery/assets/used_channel_inadir/title": {},
+        "stac_discovery/assets/radiance_window/href": {},
+        "stac_discovery/assets/radiance_window/title": {},
+        "stac_discovery/assets/glint_angle/href": {},
+        "stac_discovery/assets/glint_angle/title": {},
+        "stac_discovery/assets/bt_mir/href": {},
+        "stac_discovery/assets/bt_mir/title": {},
+        "stac_discovery/assets/bt_window/href": {},
+        "stac_discovery/assets/bt_window/title": {},
+        "stac_discovery/assets/sun_zenith_angle/href": {},
+        "stac_discovery/assets/sun_zenith_angle/title": {},
+        "stac_discovery/assets/satellite_zenith_angle/href": {},
+        "stac_discovery/assets/satellite_zenith_angle/title": {},
+        "stac_discovery/assets/day_night/href": {},
+        "stac_discovery/assets/day_night/title": {},
+        "stac_discovery/assets/ifov_area_inadir/href": {},
+        "stac_discovery/assets/ifov_area_inadir/title": {},
+        "stac_discovery/assets/tcwv_inadir/href": {},
+        "stac_discovery/assets/tcwv_inadir/title": {},
+        "stac_discovery/assets/n_window/href": {},
+        "stac_discovery/assets/n_window/title": {},
+        "stac_discovery/assets/n_water/href": {},
+        "stac_discovery/assets/n_water/title": {},
+        "stac_discovery/assets/n_cloud/href": {},
+        "stac_discovery/assets/n_cloud/title": {},
+        "stac_discovery/assets/flags_inadir/href": {},
+        "stac_discovery/assets/flags_inadir/title": {},
+        "other_metadata/eopf_category": {},
+        "other_metadata/data_information/measurement_accuracy": {},
+        "other_metadata/data_information/accuracy_reference": {},
+        "other_metadata/band_description/s1/detector_temperature_min": {},
+        "other_metadata/band_description/s1/detector_temperature_max": {},
+        "other_metadata/band_description/s2/detector_temperature_min": {},
+        "other_metadata/band_description/s2/detector_temperature_max": {},
+        "other_metadata/band_description/s3/detector_temperature_min": {},
+        "other_metadata/band_description/s3/detector_temperature_max": {},
+        "other_metadata/band_description/s4/detector_temperature_min": {},
+        "other_metadata/band_description/s4/detector_temperature_max": {},
+        "other_metadata/band_description/s5/detector_temperature_min": {},
+        "other_metadata/band_description/s5/detector_temperature_max": {},
+        "other_metadata/band_description/s6/detector_temperature_min": {},
+        "other_metadata/band_description/s6/detector_temperature_max": {},
+        "other_metadata/band_description/s7/detector_temperature_min": {},
+        "other_metadata/band_description/s7/detector_temperature_max": {},
+        "other_metadata/band_description/s8/detector_temperature_min": {},
+        "other_metadata/band_description/s8/detector_temperature_max": {},
+        "other_metadata/band_description/s9/detector_temperature_min": {},
+        "other_metadata/band_description/s9/detector_temperature_max": {},
+        "other_metadata/absolute_pass_number": {},
+        "other_metadata/relative_pass_number": {},
+        "other_metadata/phase_identifier": {},
+        "other_metadata/type": {},
+        "other_metadata/ephemeris/start/TAI": {},
+        "other_metadata/ephemeris/start/UTC": {},
+        "other_metadata/ephemeris/start/UT1": {},
+        "other_metadata/ephemeris/start/position/x": {},
+        "other_metadata/ephemeris/start/position/y": {},
+        "other_metadata/ephemeris/start/position/z": {},
+        "other_metadata/ephemeris/start/velocity/x": {},
+        "other_metadata/ephemeris/start/velocity/y": {},
+        "other_metadata/ephemeris/start/velocity/z": {},
+        "other_metadata/ephemeris/stop/TAI": {},
+        "other_metadata/ephemeris/stop/UTC": {},
+        "other_metadata/ephemeris/stop/UT1": {},
+        "other_metadata/ephemeris/stop/position/x": {},
+        "other_metadata/ephemeris/stop/position/y": {},
+        "other_metadata/ephemeris/stop/position/z": {},
+        "other_metadata/ephemeris/stop/velocity/x": {},
+        "other_metadata/ephemeris/stop/velocity/y": {},
+        "other_metadata/ephemeris/stop/velocity/z": {},
+        "other_metadata/product_unit/type": {},
+        "other_metadata/product_unit/duration": {},
+        "other_metadata/product_unit/alongtrack_coordinate": {},
+        "other_metadata/meteo/source": {},
+        "other_metadata/meteo/type": {},
+        "other_metadata/meteo/missing_time": {},
+        "other_metadata/L0_offset_between_scan_index_and_ISP_scan_count_fn": {},
+        "other_metadata/L0_offset_between_scan_index_and_ISP_scan_count_in": {},
+        "other_metadata/a_nadir_first_pixel_acquisition": {},
+        "other_metadata/b_nadir_first_pixel_acquisition": {},
+        "other_metadata/i_nadir_first_pixel_acquisition": {},
+        "other_metadata/a_oblique_first_pixel_acquisition": {},
+        "other_metadata/b_oblique_first_pixel_acquisition": {},
+        "other_metadata/i_oblique_first_pixel_acquisition": {},
+        "other_metadata/pixel_time_sampling_interval_along_scan_a_in_microseconds": {},
+        "other_metadata/pixel_time_sampling_interval_along_scan_b_in_microseconds": {},
+        "other_metadata/pixel_time_sampling_interval_along_scan_i_in_microseconds": {},
+        "other_metadata/an_scan_period_in_microseconds": {},
+        "other_metadata/bn_scan_period_in_microseconds": {},
+        "other_metadata/in_scan_period_in_microseconds": {},
+        "other_metadata/single_meteofield_synoptic_time_UTC_hours": {},
+        "other_metadata/meteo_analysis_time_UTC_hours": {},
+        "processing_history": {
+            "required": false,
+            "dont_look_under": true
+        },
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}

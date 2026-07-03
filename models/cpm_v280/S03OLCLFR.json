@@ -1,0 +1,1647 @@
+{
+    "product_type_regex": "S03OLCLFR",
+    "variables": {
+        "/conditions/image/detector_index": {
+            "dtype": "int16",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/image/frame_offset": {
+            "dtype": "int8",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/oaa": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/oza": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/saa": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/geometry/sza": {
+            "dtype": "float64",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/temperature_profile": {
+            "dtype": "float32",
+            "dims": [
+                "pressure_level",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/horizontal_wind": {
+            "dtype": "float32",
+            "dims": [
+                "wind_vector",
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/humidity": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/sea_level_pressure": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/total_columnar_water_vapour": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/meteorology/total_ozone": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "standard_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/instrument/fwhm": {
+            "dtype": "float32",
+            "dims": [
+                "bands",
+                "detectors"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/instrument/lambda0": {
+            "dtype": "float32",
+            "dims": [
+                "bands",
+                "detectors"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/instrument/relative_spectral_covariance": {
+            "dtype": "float32",
+            "dims": [
+                "bands",
+                "bands2"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/conditions/instrument/solar_flux": {
+            "dtype": "float32",
+            "dims": [
+                "bands",
+                "detectors"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_min": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "valid_max": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/rc681": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/rc865": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/gifapar": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/otci": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/measurements/iwv": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/lqsf": {
+            "dtype": "uint32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/otci_quality_flags": {
+            "dtype": "uint8",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "flag_masks": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_meanings": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "flag_descriptions": {},
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/otci_unc": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/gifapar_unc": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/rc681_unc": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/rc865_unc": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        },
+        "/quality/iwv_unc": {
+            "dtype": "float32",
+            "dims": [
+                "rows",
+                "columns"
+            ],
+            "attrs": {
+                "long_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "units": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "fill_value": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "scale_factor": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "add_offset": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "short_name": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_masked": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_target_dtype": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "eopf_is_scaled": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "dimensions": {
+                    "required": false,
+                    "dont_look_under": false
+                },
+                "coordinates": {
+                    "required": false,
+                    "dont_look_under": false
+                }
+            }
+        }
+    },
+    "attrs": {
+        "stac_discovery/type": {},
+        "stac_discovery/stac_version": {},
+        "stac_discovery/stac_extensions": {},
+        "stac_discovery/id": {},
+        "stac_discovery/geometry/type": {},
+        "stac_discovery/geometry/coordinates": {},
+        "stac_discovery/bbox": {},
+        "stac_discovery/collection": {},
+        "stac_discovery/properties/datetime": {},
+        "stac_discovery/properties/start_datetime": {},
+        "stac_discovery/properties/end_datetime": {},
+        "stac_discovery/properties/created": {},
+        "stac_discovery/properties/platform": {},
+        "stac_discovery/properties/instruments": {},
+        "stac_discovery/properties/constellation": {},
+        "stac_discovery/properties/gsd": {},
+        "stac_discovery/properties/providers": {},
+        "stac_discovery/properties/product:timeliness_category": {},
+        "stac_discovery/properties/product:timeliness": {},
+        "stac_discovery/properties/product:acquisition_type": {},
+        "stac_discovery/properties/product:type": {},
+        "stac_discovery/properties/proj:shape": {},
+        "stac_discovery/properties/classification:classes": {},
+        "stac_discovery/properties/sat:absolute_orbit": {},
+        "stac_discovery/properties/sat:orbit_cycle": {},
+        "stac_discovery/properties/sat:relative_orbit": {},
+        "stac_discovery/properties/sat:orbit_state": {},
+        "stac_discovery/properties/sat:platform_international_designator": {},
+        "stac_discovery/properties/processing:lineage": {},
+        "stac_discovery/properties/processing:facility": {},
+        "stac_discovery/properties/processing:level": {},
+        "stac_discovery/properties/mission": {},
+        "stac_discovery/properties/processing:version": {},
+        "stac_discovery/links": {},
+        "stac_discovery/assets/detector_index/href": {},
+        "stac_discovery/assets/detector_index/title": {},
+        "stac_discovery/assets/rc681/href": {},
+        "stac_discovery/assets/rc681/title": {},
+        "stac_discovery/assets/rc865/href": {},
+        "stac_discovery/assets/rc865/title": {},
+        "stac_discovery/assets/gifapar/href": {},
+        "stac_discovery/assets/gifapar/title": {},
+        "stac_discovery/assets/otci/href": {},
+        "stac_discovery/assets/otci/title": {},
+        "stac_discovery/assets/iwv/href": {},
+        "stac_discovery/assets/iwv/title": {},
+        "stac_discovery/assets/lqsf/href": {},
+        "stac_discovery/assets/lqsf/title": {},
+        "stac_discovery/assets/otci_quality_flags/href": {},
+        "stac_discovery/assets/otci_quality_flags/title": {},
+        "stac_discovery/assets/otci_unc/href": {},
+        "stac_discovery/assets/otci_unc/title": {},
+        "stac_discovery/assets/gifapar_unc/href": {},
+        "stac_discovery/assets/gifapar_unc/title": {},
+        "stac_discovery/assets/rc681_unc/href": {},
+        "stac_discovery/assets/rc681_unc/title": {},
+        "stac_discovery/assets/rc865_unc/href": {},
+        "stac_discovery/assets/rc865_unc/title": {},
+        "stac_discovery/assets/iwv_unc/href": {},
+        "stac_discovery/assets/iwv_unc/title": {},
+        "stac_discovery/assets/oaa/href": {},
+        "stac_discovery/assets/oaa/title": {},
+        "stac_discovery/assets/oza/href": {},
+        "stac_discovery/assets/oza/title": {},
+        "stac_discovery/assets/saa/href": {},
+        "stac_discovery/assets/saa/title": {},
+        "stac_discovery/assets/sza/href": {},
+        "stac_discovery/assets/sza/title": {},
+        "stac_discovery/assets/temperature_profile/href": {},
+        "stac_discovery/assets/temperature_profile/title": {},
+        "stac_discovery/assets/horizontal_wind/href": {},
+        "stac_discovery/assets/horizontal_wind/title": {},
+        "stac_discovery/assets/humidity/href": {},
+        "stac_discovery/assets/humidity/title": {},
+        "stac_discovery/assets/sea_level_pressure/href": {},
+        "stac_discovery/assets/sea_level_pressure/title": {},
+        "stac_discovery/assets/total_columnar_water_vapour/href": {},
+        "stac_discovery/assets/total_columnar_water_vapour/title": {},
+        "stac_discovery/assets/total_ozone/href": {},
+        "stac_discovery/assets/total_ozone/title": {},
+        "stac_discovery/assets/fwhm/href": {},
+        "stac_discovery/assets/fwhm/title": {},
+        "stac_discovery/assets/frame_offset/href": {},
+        "stac_discovery/assets/frame_offset/title": {},
+        "stac_discovery/assets/lambda0/href": {},
+        "stac_discovery/assets/lambda0/title": {},
+        "stac_discovery/assets/relative_spectral_covariance/href": {},
+        "stac_discovery/assets/relative_spectral_covariance/title": {},
+        "stac_discovery/assets/solar_flux/href": {},
+        "stac_discovery/assets/solar_flux/title": {},
+        "other_metadata/eopf_category": {},
+        "other_metadata/data_information/atm_correction_type": {},
+        "other_metadata/data_information/measurement_accuracy": {},
+        "other_metadata/data_information/accuracy_reference": {},
+        "other_metadata/data_information/earth_sun_distance": {},
+        "other_metadata/data_information/ocl_status": {},
+        "other_metadata/data_information/sampling/along_track_time": {},
+        "other_metadata/data_information/sampling/along_track_distance": {},
+        "other_metadata/data_information/sampling/across_track_distance": {},
+        "other_metadata/data_information/sampling/rows_per_tiepoint": {},
+        "other_metadata/data_information/sampling/columns_per_tiepoint": {},
+        "other_metadata/absolute_pass_number": {},
+        "other_metadata/relative_pass_number": {},
+        "other_metadata/phase_identifier": {},
+        "other_metadata/type": {},
+        "other_metadata/ephemeris/start/TAI": {},
+        "other_metadata/ephemeris/start/UTC": {},
+        "other_metadata/ephemeris/start/UT1": {},
+        "other_metadata/ephemeris/start/position/x": {},
+        "other_metadata/ephemeris/start/position/y": {},
+        "other_metadata/ephemeris/start/position/z": {},
+        "other_metadata/ephemeris/start/velocity/x": {},
+        "other_metadata/ephemeris/start/velocity/y": {},
+        "other_metadata/ephemeris/start/velocity/z": {},
+        "other_metadata/ephemeris/stop/TAI": {},
+        "other_metadata/ephemeris/stop/UTC": {},
+        "other_metadata/ephemeris/stop/UT1": {},
+        "other_metadata/ephemeris/stop/position/x": {},
+        "other_metadata/ephemeris/stop/position/y": {},
+        "other_metadata/ephemeris/stop/position/z": {},
+        "other_metadata/ephemeris/stop/velocity/x": {},
+        "other_metadata/ephemeris/stop/velocity/y": {},
+        "other_metadata/ephemeris/stop/velocity/z": {},
+        "other_metadata/product_unit/type": {},
+        "other_metadata/product_unit/duration": {},
+        "other_metadata/product_unit/alongtrack_coordinate": {},
+        "other_metadata/meteo/source": {},
+        "other_metadata/meteo/type": {},
+        "other_metadata/meteo/missing_time": {},
+        "processing_history": {
+            "required": false,
+            "dont_look_under": true
+        },
+        "stac_discovery/properties/processing:software": {
+            "required": false,
+            "dont_look_under": true
+        }
+    }
+}

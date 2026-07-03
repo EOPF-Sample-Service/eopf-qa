@@ -1,0 +1,4072 @@
+{
+  "container_type_regex": "S01SIWOCN",
+  "sub_products": {},
+  "sub_containers": {
+    "osw": {
+      "container_type_regex": "S01SIWOCN",
+      "sub_products": {
+        "S01SIWOCN_20250921T194014_0029_C024_1302_008634_HH": {
+          "product_type_regex": "S01SIWOCN",
+          "variables": {
+            "/conditions/ambiguity_factor": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/auxiliary_wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/auxiliary_wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_cutoff": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_size": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_size_slc": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/cartesian_spectra_imaginary": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag",
+                "ky",
+                "kx"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/cartesian_spectra_real": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag",
+                "ky",
+                "kx"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/clutter_noise_cross_covariance_spectra": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/clutter_noise_cross_spectra": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/depth": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/ground_range_size": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/heading": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/incidence_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/intensity": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/jx": {
+              "dtype": "float32",
+              "dims": [
+                "kx"
+              ]
+            },
+            "/conditions/jy": {
+              "dtype": "float32",
+              "dims": [
+                "ky"
+              ]
+            },
+            "/conditions/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/conditions/kurtosis": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/land_coverage": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/land_flag": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/conditions/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/conditions/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/conditions/look_separation_time": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/non_linear_spectral_width": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_denoised": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/conditions/polar_spectrum": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/polar_spectrum_normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/range_cutoff": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/range_size_slc": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/skewness": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/spectrum_resolution": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/hs_normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/measurements/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/measurements/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/measurements/partitions": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/measurements/total_hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/total_hs_standard_deviation": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_age": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_length": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_sea_hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/i_confidence": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/quality/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/quality/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/quality/partition_quality_flag": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/quality/quality_cross_spectra_imaginary_part": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/quality_cross_spectra_real_part": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/quality_flag": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/snr": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/elevation_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/mask": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/nesz": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "polarisation"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_noise_corrected": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "polarisation"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_wind_gmf": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/quality/calibration_constant": {
+              "dtype": "float32",
+              "dims": [
+                "calib_const_inc_angles"
+              ],
+              "attrs": {
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/inversion_quality": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/percentage_bright_points": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/wind_quality": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/dc_geo": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/dc_miss": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/dc_obs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/pitch": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/roll": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/slant_range_time": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/stokes_drift_x": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/stokes_drift_y": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/sweep_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/yaw": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/zero_doppler_time": {
+              "dtype": "int64",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/measurements/radial_velocity": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/radial_velocity_standard_deviation": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/dc_obs_confidence": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/dc_obs_std": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            }
+          },
+          "attrs": {}
+        }
+      },
+      "sub_containers": {},
+      "attrs": {}
+    },
+    "owi": {
+      "container_type_regex": "S01SIWOCN",
+      "sub_products": {
+        "S01SIWOCN_20250921T194014_0029_C024_1302_008634_HH": {
+          "product_type_regex": "S01SIWOCN",
+          "variables": {
+            "/conditions/ambiguity_factor": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/auxiliary_wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/auxiliary_wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_cutoff": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_size": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_size_slc": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/cartesian_spectra_imaginary": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag",
+                "ky",
+                "kx"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/cartesian_spectra_real": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag",
+                "ky",
+                "kx"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/clutter_noise_cross_covariance_spectra": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/clutter_noise_cross_spectra": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/depth": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/ground_range_size": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/heading": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/incidence_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/intensity": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/jx": {
+              "dtype": "float32",
+              "dims": [
+                "kx"
+              ]
+            },
+            "/conditions/jy": {
+              "dtype": "float32",
+              "dims": [
+                "ky"
+              ]
+            },
+            "/conditions/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/conditions/kurtosis": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/land_coverage": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/land_flag": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/conditions/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/conditions/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/conditions/look_separation_time": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/non_linear_spectral_width": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_denoised": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/conditions/polar_spectrum": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/polar_spectrum_normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/range_cutoff": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/range_size_slc": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/skewness": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/spectrum_resolution": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/hs_normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/measurements/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/measurements/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/measurements/partitions": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/measurements/total_hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/total_hs_standard_deviation": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_age": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_length": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_sea_hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/i_confidence": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/quality/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/quality/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/quality/partition_quality_flag": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/quality/quality_cross_spectra_imaginary_part": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/quality_cross_spectra_real_part": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/quality_flag": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/snr": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/elevation_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/mask": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/nesz": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "polarisation"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_noise_corrected": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "polarisation"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_wind_gmf": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/quality/calibration_constant": {
+              "dtype": "float32",
+              "dims": [
+                "calib_const_inc_angles"
+              ],
+              "attrs": {
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/inversion_quality": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/percentage_bright_points": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/wind_quality": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/dc_geo": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/dc_miss": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/dc_obs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/pitch": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/roll": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/slant_range_time": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/stokes_drift_x": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/stokes_drift_y": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/sweep_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/yaw": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/zero_doppler_time": {
+              "dtype": "int64",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/measurements/radial_velocity": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/radial_velocity_standard_deviation": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/dc_obs_confidence": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/dc_obs_std": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            }
+          },
+          "attrs": {}
+        }
+      },
+      "sub_containers": {},
+      "attrs": {}
+    },
+    "rvl": {
+      "container_type_regex": "S01SIWOCN",
+      "sub_products": {
+        "S01SIWOCN_20250921T194014_0029_C024_1302_008634_HH": {
+          "product_type_regex": "S01SIWOCN",
+          "variables": {
+            "/conditions/ambiguity_factor": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/auxiliary_wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/auxiliary_wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_cutoff": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_size": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/azimuth_size_slc": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/cartesian_spectra_imaginary": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag",
+                "ky",
+                "kx"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/cartesian_spectra_real": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag",
+                "ky",
+                "kx"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/clutter_noise_cross_covariance_spectra": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/clutter_noise_cross_spectra": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "lag"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/depth": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/ground_range_size": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/heading": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/incidence_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/intensity": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/jx": {
+              "dtype": "float32",
+              "dims": [
+                "kx"
+              ]
+            },
+            "/conditions/jy": {
+              "dtype": "float32",
+              "dims": [
+                "ky"
+              ]
+            },
+            "/conditions/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/conditions/kurtosis": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/land_coverage": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/land_flag": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/conditions/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/conditions/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/conditions/look_separation_time": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/non_linear_spectral_width": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_denoised": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/conditions/polar_spectrum": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/polar_spectrum_normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/range_cutoff": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/range_size_slc": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/skewness": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/spectrum_resolution": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/hs_normalised_variance": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/measurements/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/measurements/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/measurements/partitions": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/measurements/total_hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/total_hs_standard_deviation": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_age": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wave_length": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_sea_hs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/i_confidence": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/k": {
+              "dtype": "float32",
+              "dims": [
+                "wavenumber_binsize"
+              ]
+            },
+            "/quality/latitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/quality/longitude": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ]
+            },
+            "/quality/partition_quality_flag": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range",
+                "partition"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/phi": {
+              "dtype": "float32",
+              "dims": [
+                "angular_binsize"
+              ]
+            },
+            "/quality/quality_cross_spectra_imaginary_part": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/quality_cross_spectra_real_part": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "angular_binsize",
+                "wavenumber_binsize"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/quality_flag": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/snr": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/elevation_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/mask": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/nesz": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "polarisation"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_noise_corrected": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "polarisation"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/nrcs_wind_gmf": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_direction": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/wind_speed": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "standard_name": {},
+                "units": {}
+              }
+            },
+            "/quality/calibration_constant": {
+              "dtype": "float32",
+              "dims": [
+                "calib_const_inc_angles"
+              ],
+              "attrs": {
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/inversion_quality": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/percentage_bright_points": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/quality/wind_quality": {
+              "dtype": "float64",
+              "dims": [
+                "azimuth",
+                "range"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {},
+                "valid_max": {},
+                "valid_min": {}
+              }
+            },
+            "/conditions/dc_geo": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/dc_miss": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/dc_obs": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/pitch": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/roll": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/slant_range_time": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/stokes_drift_x": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/stokes_drift_y": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/sweep_angle": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/yaw": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/conditions/zero_doppler_time": {
+              "dtype": "int64",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/measurements/radial_velocity": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/measurements/radial_velocity_standard_deviation": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            },
+            "/quality/dc_obs_confidence": {
+              "dtype": "bool",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "flag_meanings": {},
+                "flag_values": {},
+                "long_name": {},
+                "short_name": {}
+              }
+            },
+            "/quality/dc_obs_std": {
+              "dtype": "float32",
+              "dims": [
+                "azimuth",
+                "range",
+                "swath"
+              ],
+              "attrs": {
+                "coordinates": {},
+                "dimensions": {},
+                "dtype": {},
+                "eopf_is_masked": {},
+                "fill_value": {},
+                "long_name": {},
+                "short_name": {},
+                "units": {}
+              }
+            }
+          },
+          "attrs": {}
+        }
+      },
+      "sub_containers": {},
+      "attrs": {}
+    }
+  },
+  "attrs": {}
+}
