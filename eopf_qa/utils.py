@@ -4,12 +4,9 @@ def __init__():
     # see warning in https://docs.python.org/3/library/urllib.request.html#module-urllib.request for mac
     os.environ["no_proxy"] = "*"
 
-def check_file_exists(url):
-    """
-    Checks that a given URL is reachable.
-    :param url: a URL
-    :rtype: bool
-    """
+def check_file_exists(url) -> bool:
+    # Checks that a given URL is reachable.
+
     request = urllib.request.Request(url)
     request.get_method = lambda: 'HEAD'
 
