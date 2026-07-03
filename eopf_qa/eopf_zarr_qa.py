@@ -242,7 +242,7 @@ def validateZarrModel(node: dict, model = {},
                         append_to_anomalies(out_anomalies, "MODEL", msg, logger)
         elif type_name == 'str':
             # check the value
-            if value == node[attr] or (attr == 'dtype' and 'eopf_is_scaled' in model['attrs'].keys()):
+            if value == node[attr] or (attr == 'dtype' and 'eopf_is_scaled' in node.keys()):
                 msg = f"    node attribute {attr} value {value} matches"
                 ##print(msg)
             else:
