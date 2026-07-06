@@ -4,9 +4,9 @@ import json
 import os
 import re
 import requests
-from eopf_qa.utils import check_file_exists
 from stac_validator.utilities import fetch_and_parse_file
 from stac_validator import stac_validator
+from utils import check_file_exists
 #from stac_validator.utilites import fetch_and_parse_file
 
 def print_json(json_data):

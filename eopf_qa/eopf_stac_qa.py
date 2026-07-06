@@ -2,7 +2,8 @@
 import argparse
 import json
 from stac_validator import stac_validator
-from zarr_metadata_qa import zarr_metadata_validate, check_file_exists
+from zarr_metadata_qa import zarr_metadata_validate
+from utils import check_file_exists
 
 EXPECTED_STAC_ASSETS = ["product","zipped_product","product_metadata"] 
 EXPECTED_STAC_LINKS = ["collection","parent","root","self","cite-as","license"]
