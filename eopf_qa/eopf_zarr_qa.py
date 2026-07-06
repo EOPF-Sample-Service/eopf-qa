@@ -380,13 +380,21 @@ if __name__ == "__main__":
         datefmt='%Y-%m-%d %H:%M:%S'
     )
 
-    parser = argparse.ArgumentParser(description='EOPF Zarr Model Validator')
-    parser.add_argument('action', choices=['inspect', 'model', 'validate'])
-    parser.add_argument("--zarr", type=str, help="path to Zarr file or URL", required=True)
+    action_help='''\
+    inspect   to print the structure of the contents of a Zarr file
+    model     to generate and dump Zarr model
+    validate  to validate a Zarr file'''
+    example_help='''example:
+    python3 eopf_qa/eopf_zarr_qa.py validate --zarr path_to_your_zarr_file.zarr
+    '''
+    
+    parser = argparse.ArgumentParser(description='EOPF Zarr Model Validator', epilog=example_help, formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('action', choices=['inspect', 'model', 'validate'], help=action_help)
+    parser.add_argument("--zarr", type=str, help="path to Zarr file (may be zip) or URL", required=True)
     parser.add_argument("--model", type=str, help="path to model file or directory", required=False)
-    parser.add_argument("-s", "--skipzarrfilecheck", type=bool, help="skip Zarr .attrs file checks", action=argparse.BooleanOptionalAction, required=False, default=False)
-    parser.add_argument("-v", "--verbose",  help="verbose mode 0:WARN 1:INFO 2:DEBUG", action='count', required=False, default=0)
-    parser.add_argument("-q", "--quiet", type=bool, help="do not print result, only exit code > 0 on error", action=argparse.BooleanOptionalAction, required=False, default=False)
+    parser.add_argument("-s", "--skipzarrfilecheck", help="skip Zarr .attrs file checks", action='store_true', required=False, default=False)
+    parser.add_argument("-v", "--verbose",  help="verbose mode, multiple -v increments mode 0:WARN 1:INFO 2:DEBUG", action='count', required=False, default=0)
+    parser.add_argument("-q", "--quiet", help="do not print result, only exit code > 0 on error", action='store_true', required=False, default=False)
     args = parser.parse_args()
 
     #zarr_url = "https://objects.eodc.eu/e05ab01a9d56408d82ac32d69a5aae2a:202604-s02msil1c-eu/07/products/cpm_v270/S2B_MSIL1C_20260407T125029_N0512_R095_T26TKK_20260407T150815.zarr"
@@ -434,7 +442,9 @@ if __name__ == "__main__":
         elif args.action == 'validate':
             logger.info(f"validating {zarr_url}")
 
-            if not args.skipzarrfilecheck:
+            if args.skipzarrfilecheck:
+                logger.warning(f"skipping Zarr .attrs file checks")
+            else:
                 # will use this path to validate the accessibility of the zarr groups and attr files
                 product_model['path'] = zarr_url if zarr_url.startswith('http') else Path(zarr_url).resolve().as_uri() 
 
