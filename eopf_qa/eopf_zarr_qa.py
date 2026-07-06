@@ -443,7 +443,8 @@ if __name__ == "__main__":
             logger.info(f"validating {zarr_url}")
 
             if args.skipzarrfilecheck:
-                logger.warning(f"skipping Zarr .attrs file checks")
+                if not args.quiet:
+                    logger.warning(f"skipping Zarr .attrs file checks")
             else:
                 # will use this path to validate the accessibility of the zarr groups and attr files
                 product_model['path'] = zarr_url if zarr_url.startswith('http') else Path(zarr_url).resolve().as_uri() 
@@ -457,9 +458,12 @@ if __name__ == "__main__":
             anomalies: List[AnomalyDescriptor] = []
             validateEopfZarr(product_model, reference_model, anomalies, logger) # TODO
             # ensure final result is displayed
-            if not args.quiet or args.verbose > 0:
-                logger.setLevel(logging.INFO)
-            result = printValidationResult(anomalies, logger)
+            if logger.getEffectiveLevel() <= logging.INFO:
+                logger.setLevel(logging.DEBUG)
+            if args.quiet and len(anomalies) > 0:
+                result = 1
+            else:
+                result = printValidationResult(anomalies, logger)
             exit(result)
         else:
             logger.error(f"ERROR: no action specified")
