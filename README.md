@@ -23,6 +23,8 @@ Implemented as a library to be either called during STAC-Item generation or with
 
 ## Usage examples
 
+Note: also see the example scripts in the tests subdirectory.
+
 ### Usage help
 ```bash
 python3 ./eopf_qa/zarr_metadata_qa.py --help
@@ -67,13 +69,21 @@ usage: eopf_zarr_qa.py [-h] {inspect,model,validate} --zarr ZARR [--model MODEL]
 
 EOPF Zarr Model Validator
 
-positional arguments: {inspect,model,validate}
+positional arguments, one of: 
+  inspect               to print the structure of the contents of a Zarr file
+  model                 to generate and dump Zarr model
+  validate              to validate a Zarr file
+
 options:
-  -h, --help            show this help message and exit
   --zarr ZARR           path to Zarr file or URL
   --model MODEL         path to model file or directory
-  -z, --nozarrfilecheck skip zarr file checks
-  -v, --verbose         verbose mode
+  -s, --skipzarrfilecheck  skip zarr file checks
+  -v, --verbose         verbose mode, multiple -v increments mode 0:WARN 1:INFO 2:DEBUG
+  -q, --quiet           do not print result, only exit code > 0 on error
+  -h, --help            show this help message and exit
+
+example:
+    python3 eopf_qa/eopf_zarr_qa.py validate --zarr path_to_your_zarr_file.zarr
 ```
 
 
@@ -98,4 +108,3 @@ python3 eopf_qa/eopf_stac_qa.py --stac 'tests/sample-data/stac-s2l1c.json'
 ```bash
 python3 eopf_qa/eopf_zarr_qa.py validate --zarr https://objects.eodc.eu/e05ab01a9d56408d82ac32d69a5aae2a:202604-s02msil1c-eu/07/products/cpm_v270/S2B_MSIL1C_20260407T125029_N0512_R095_T26TKK_20260407T150815.zarr --model models/cpm_v270/S02MSIL1C.json
 ```
-
