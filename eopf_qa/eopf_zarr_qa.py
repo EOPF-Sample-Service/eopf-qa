@@ -458,11 +458,13 @@ if __name__ == "__main__":
             anomalies: List[AnomalyDescriptor] = []
             validateEopfZarr(product_model, reference_model, anomalies, logger) # TODO
             # ensure final result is displayed
-            if logger.getEffectiveLevel() <= logging.INFO:
-                logger.setLevel(logging.DEBUG)
-            if args.quiet and len(anomalies) > 0:
-                result = 1
+            if args.quiet == True:
+                result = 1 if len(anomalies) > 0 else 0
             else:
+                ##print(f"{logger.getEffectiveLevel()} >= {logging.INFO}")
+                if len(anomalies) == 0:
+                    # ensure success log is shown
+                    logger.setLevel(logging.DEBUG)
                 result = printValidationResult(anomalies, logger)
             exit(result)
         else:
