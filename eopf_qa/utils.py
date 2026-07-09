@@ -1,5 +1,6 @@
 import requests
 import urllib
+from urllib.parse import urlparse
 from typing import Dict, Optional, Tuple
 
 def __init__():
@@ -17,6 +18,21 @@ def check_file_exists(url) -> bool:
         return True
     except urllib.request.HTTPError as err:
         #print(err)
+        return False
+
+def is_url(url: str) -> bool:
+    """Checks whether the input string is a valid URL.
+
+    Args:
+        url (str): The string to check.
+
+    Returns:
+        bool: True if the input string is a valid URL, False otherwise.
+    """
+    try:
+        result = urlparse(url)
+        return all([result.scheme, result.netloc])
+    except ValueError:
         return False
 
 def fetch_and_parse_file(input_path: str, headers: Optional[Dict] = None) -> Dict:
