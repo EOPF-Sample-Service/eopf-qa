@@ -1,5 +1,5 @@
 requests==2.33.1
-stac_validator==4.1.0
+stac_valid==4.4.0
 xarray==2026.2.0
 xarray-eopf==0.2.7
 zarr=3.1.6
