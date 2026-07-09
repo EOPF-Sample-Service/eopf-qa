@@ -7,13 +7,12 @@ import os
 import re
 import time
 import zarr
-from utils import check_file_exists
+from utils import check_file_exists, fetch_and_parse_file
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from logging import Logger
 from pathlib import Path
 from typing import Any, Dict, List, Literal, Optional, Tuple, Union
-from stac_validator.utilities import fetch_and_parse_file
 from zarr.core.array import Array
 from zarr.core.group import Group
 from zarr.storage import ZipStore
