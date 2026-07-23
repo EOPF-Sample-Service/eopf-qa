@@ -3,7 +3,7 @@
 # eopf-qa
 EOPF Zarr Product quality checks
 
-## Targeet Audience
+## Target Audience
 ESA, EOPF Developers, Users, Eurac, and EOPF-ZSS internal ingestion workflow
 
 Implemented as a library to be either called during STAC-Item generation or within a JN to check the correctness and completeness of an EOPF-Product
